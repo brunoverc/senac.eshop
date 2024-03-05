@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Senac.eShop.Domain/1.0.0": {
+        "dependencies": {
+          "Senac.eShop.Core": "1.0.0"
+        },
+        "runtime": {
+          "Senac.eShop.Domain.dll": {}
+        }
+      },
+      "Senac.eShop.Core/1.0.0": {
+        "runtime": {
+          "Senac.eShop.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Senac.eShop.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Senac.eShop.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

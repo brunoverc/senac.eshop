@@ -1,0 +1,12 @@
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Application\bin\Debug\net6.0\Senac.eShop.Application.deps.json
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Application\bin\Debug\net6.0\Senac.eShop.Application.dll
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Application\bin\Debug\net6.0\Senac.eShop.Application.pdb
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Application\obj\Debug\net6.0\Senac.eShop.Application.csproj.AssemblyReference.cache
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Application\obj\Debug\net6.0\Senac.eShop.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Application\obj\Debug\net6.0\Senac.eShop.Application.AssemblyInfoInputs.cache
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Application\obj\Debug\net6.0\Senac.eShop.Application.AssemblyInfo.cs
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Application\obj\Debug\net6.0\Senac.eShop.Application.csproj.CoreCompileInputs.cache
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Application\obj\Debug\net6.0\Senac.eShop.Application.dll
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Application\obj\Debug\net6.0\refint\Senac.eShop.Application.dll
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Application\obj\Debug\net6.0\Senac.eShop.Application.pdb
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Application\obj\Debug\net6.0\ref\Senac.eShop.Application.dll

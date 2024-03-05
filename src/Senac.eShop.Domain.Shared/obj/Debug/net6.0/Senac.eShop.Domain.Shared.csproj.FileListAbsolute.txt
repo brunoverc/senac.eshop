@@ -1,0 +1,12 @@
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\bin\Debug\net6.0\Senac.eShop.Domain.Shared.deps.json
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\bin\Debug\net6.0\Senac.eShop.Domain.Shared.dll
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\bin\Debug\net6.0\Senac.eShop.Domain.Shared.pdb
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\obj\Debug\net6.0\Senac.eShop.Domain.Shared.csproj.AssemblyReference.cache
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\obj\Debug\net6.0\Senac.eShop.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\obj\Debug\net6.0\Senac.eShop.Domain.Shared.AssemblyInfoInputs.cache
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\obj\Debug\net6.0\Senac.eShop.Domain.Shared.AssemblyInfo.cs
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\obj\Debug\net6.0\Senac.eShop.Domain.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\obj\Debug\net6.0\Senac.eShop.Domain.Shared.dll
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\obj\Debug\net6.0\refint\Senac.eShop.Domain.Shared.dll
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\obj\Debug\net6.0\Senac.eShop.Domain.Shared.pdb
+C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\obj\Debug\net6.0\ref\Senac.eShop.Domain.Shared.dll
