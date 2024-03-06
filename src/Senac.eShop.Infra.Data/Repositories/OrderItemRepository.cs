@@ -19,8 +19,8 @@ namespace Senac.eShop.Infra.Data.Repositories
         public OrderItem GetById(Guid id)
         {
             var context = DbSet.AsQueryable();
-            var OrderItem = context.FirstOrDefault(c => c.Id == id);
-            return OrderItem;
+            var orderItem = context.FirstOrDefault(c => c.Id == id);
+            return orderItem;
         }
 
         public void Remove(Guid id)

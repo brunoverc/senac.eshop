@@ -19,8 +19,8 @@ namespace Senac.eShop.Infra.Data.Repositories
         public PaymentMethod GetById(Guid id)
         {
             var context = DbSet.AsQueryable();
-            var PaymentMethod = context.FirstOrDefault(c => c.Id == id);
-            return PaymentMethod;
+            var paymentMethod = context.FirstOrDefault(c => c.Id == id);
+            return paymentMethod;
         }
 
         public void Remove(Guid id)

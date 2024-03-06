@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Desenvolvedor\\Documents\\Programacao\\Projetos\\Tecnico\\Senac.Tecnico.eShop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj": {}
+    "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Desenvolvedor\\Documents\\Programacao\\Projetos\\Tecnico\\Senac.Tecnico.eShop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj": {
+    "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Desenvolvedor\\Documents\\Programacao\\Projetos\\Tecnico\\Senac.Tecnico.eShop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj",
         "projectName": "Senac.eShop.Domain.Shared",
-        "projectPath": "C:\\Users\\Desenvolvedor\\Documents\\Programacao\\Projetos\\Tecnico\\Senac.Tecnico.eShop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj",
-        "packagesPath": "C:\\Users\\Desenvolvedor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Desenvolvedor\\Documents\\Programacao\\Projetos\\Tecnico\\Senac.Tecnico.eShop\\src\\Senac.eShop.Domain.Shared\\obj\\",
+        "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\Instrutor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Desenvolvedor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Instrutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -50,12 +55,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

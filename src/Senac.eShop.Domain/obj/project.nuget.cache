@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mcupSUVJ2D57vlkFt9mk4PxZdr8bzX3h15uBJm/qukxwH4dU4i62J0xo+nR3YNhiJUigeC7B+pWl+dq5Z3zy/A==",
+  "dgSpecHash": "1llwlWrElGdYyeetAVCiAb26D6tbx68alsZask2y4t1MfmJJNf4uVWE8GcNSYISWafrbitm+yEkUn+bTP3lHbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Desenvolvedor\\Documents\\Programacao\\Projetos\\Tecnico\\Senac.Tecnico.eShop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Senac.eShop.Domain.Shared
-build_property.ProjectDir = C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Domain.Shared\
+build_property.ProjectDir = C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Domain.Shared\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

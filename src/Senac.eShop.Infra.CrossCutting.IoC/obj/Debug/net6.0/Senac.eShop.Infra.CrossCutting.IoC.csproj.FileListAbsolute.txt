@@ -10,3 +10,15 @@ C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eSho
 C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Infra.CrossCutting.IoC\obj\Debug\net6.0\refint\Senac.eShop.Infra.CrossCutting.IoC.dll
 C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Infra.CrossCutting.IoC\obj\Debug\net6.0\Senac.eShop.Infra.CrossCutting.IoC.pdb
 C:\Users\Desenvolvedor\Documents\Programacao\Projetos\Tecnico\Senac.Tecnico.eShop\src\Senac.eShop.Infra.CrossCutting.IoC\obj\Debug\net6.0\ref\Senac.eShop.Infra.CrossCutting.IoC.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.CrossCutting.IoC\bin\Debug\net6.0\Senac.eShop.Infra.CrossCutting.IoC.deps.json
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.CrossCutting.IoC\bin\Debug\net6.0\Senac.eShop.Infra.CrossCutting.IoC.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.CrossCutting.IoC\bin\Debug\net6.0\Senac.eShop.Infra.CrossCutting.IoC.pdb
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.CrossCutting.IoC\obj\Debug\net6.0\Senac.eShop.Infra.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.CrossCutting.IoC\obj\Debug\net6.0\Senac.eShop.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.CrossCutting.IoC\obj\Debug\net6.0\Senac.eShop.Infra.CrossCutting.IoC.AssemblyInfo.cs
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.CrossCutting.IoC\obj\Debug\net6.0\Senac.eShop.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.CrossCutting.IoC\obj\Debug\net6.0\Senac.eShop.Infra.CrossCutting.IoC.sourcelink.json
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.CrossCutting.IoC\obj\Debug\net6.0\Senac.eShop.Infra.CrossCutting.IoC.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.CrossCutting.IoC\obj\Debug\net6.0\refint\Senac.eShop.Infra.CrossCutting.IoC.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.CrossCutting.IoC\obj\Debug\net6.0\Senac.eShop.Infra.CrossCutting.IoC.pdb
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.CrossCutting.IoC\obj\Debug\net6.0\ref\Senac.eShop.Infra.CrossCutting.IoC.dll

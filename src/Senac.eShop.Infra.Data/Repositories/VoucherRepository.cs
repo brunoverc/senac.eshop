@@ -19,8 +19,8 @@ namespace Senac.eShop.Infra.Data.Repositories
         public Voucher GetById(Guid id)
         {
             var context = DbSet.AsQueryable();
-            var Voucher = context.FirstOrDefault(c => c.Id == id);
-            return Voucher;
+            var voucher = context.FirstOrDefault(c => c.Id == id);
+            return voucher;
         }
 
         public void Remove(Guid id)
