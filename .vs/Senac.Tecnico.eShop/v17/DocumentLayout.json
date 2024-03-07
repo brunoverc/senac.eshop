@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.data\\mapping\\vouchermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|solutionrelative:src\\senac.eshop.infra.data\\mapping\\vouchermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.data\\mapping\\productmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|solutionrelative:src\\senac.eshop.infra.data\\mapping\\productmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.data\\mapping\\paymentmethodmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|solutionrelative:src\\senac.eshop.infra.data\\mapping\\paymentmethodmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.data\\mapping\\ordermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|solutionrelative:src\\senac.eshop.infra.data\\mapping\\ordermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.data\\mapping\\orderitemmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|solutionrelative:src\\senac.eshop.infra.data\\mapping\\orderitemmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\viewmodel\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\viewmodel\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VoucherMap.cs",
-              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\VoucherMap.cs",
-              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.Data\\Mapping\\VoucherMap.cs",
-              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\VoucherMap.cs",
-              "RelativeToolTip": "src\\Senac.eShop.Infra.Data\\Mapping\\VoucherMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Title": "OrderItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\OrderItemViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\ViewModel\\OrderItemViewModel.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\OrderItemViewModel.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\ViewModel\\OrderItemViewModel.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T00:06:37.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductMap.cs",
-              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\ProductMap.cs",
-              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.Data\\Mapping\\ProductMap.cs",
-              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\ProductMap.cs",
-              "RelativeToolTip": "src\\Senac.eShop.Infra.Data\\Mapping\\ProductMap.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T00:02:05.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PaymentMethodMap.cs",
-              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\PaymentMethodMap.cs",
-              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.Data\\Mapping\\PaymentMethodMap.cs",
-              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\PaymentMethodMap.cs",
-              "RelativeToolTip": "src\\Senac.eShop.Infra.Data\\Mapping\\PaymentMethodMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T00:00:08.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderMap.cs",
-              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\OrderMap.cs",
-              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.Data\\Mapping\\OrderMap.cs",
-              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\OrderMap.cs",
-              "RelativeToolTip": "src\\Senac.eShop.Infra.Data\\Mapping\\OrderMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T23:17:16.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderItemMap.cs",
-              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\OrderItemMap.cs",
-              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.Data\\Mapping\\OrderItemMap.cs",
-              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\OrderItemMap.cs",
-              "RelativeToolTip": "src\\Senac.eShop.Infra.Data\\Mapping\\OrderItemMap.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAcwBMAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T23:10:04.489Z",
+              "WhenOpened": "2024-03-07T00:37:59.943Z",
               "EditorCaption": ""
             }
           ]

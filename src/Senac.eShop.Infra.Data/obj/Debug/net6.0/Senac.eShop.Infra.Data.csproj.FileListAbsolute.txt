@@ -37,3 +37,5 @@ C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.Data\obj\D
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.Data\obj\Debug\net6.0\Senac.eShop.Infra.Data.pdb
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.Data\obj\Debug\net6.0\Senac.eShop.Infra.Data.genruntimeconfig.cache
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.Data\obj\Debug\net6.0\ref\Senac.eShop.Infra.Data.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.Data\bin\Debug\net6.0\Senac.eShop.Domain.Shared.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.Data\bin\Debug\net6.0\Senac.eShop.Domain.Shared.pdb

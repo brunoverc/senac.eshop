@@ -1069,6 +1069,16 @@
         "runtime": {
           "bin/placeholder/Senac.eShop.Domain.dll": {}
         }
+      },
+      "Senac.eShop.Domain.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Senac.eShop.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Senac.eShop.Domain.Shared.dll": {}
+        }
       }
     }
   },
@@ -2814,6 +2824,11 @@
       "type": "project",
       "path": "../Senac.eShop.Domain/Senac.eShop.Domain.csproj",
       "msbuildProject": "../Senac.eShop.Domain/Senac.eShop.Domain.csproj"
+    },
+    "Senac.eShop.Domain.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Senac.eShop.Domain.Shared/Senac.eShop.Domain.Shared.csproj",
+      "msbuildProject": "../Senac.eShop.Domain.Shared/Senac.eShop.Domain.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2828,6 +2843,7 @@
       "Microsoft.Extensions.Logging >= 8.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "Senac.eShop.Domain >= 1.0.0",
+      "Senac.eShop.Domain.Shared >= 1.0.0",
       "Serilog >= 3.1.1"
     ]
   },
@@ -2858,6 +2874,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj": {
+              "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj"
+            },
             "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj": {
               "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj"
             }

@@ -10,13 +10,16 @@
     <Folder Include="AutoMapper\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Model\" />
-    <Folder Include="ViewModel\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="MediatR" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Senac.eShop.Core\Senac.eShop.Core.csproj" />
   </ItemGroup>
 
 </Project>

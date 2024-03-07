@@ -18,6 +18,7 @@
           "Microsoft.Extensions.Logging": "8.0.0",
           "Newtonsoft.Json": "13.0.3",
           "Senac.eShop.Domain": "1.0.0",
+          "Senac.eShop.Domain.Shared": "1.0.0",
           "Serilog": "3.1.1"
         },
         "runtime": {
@@ -669,6 +670,11 @@
         "runtime": {
           "Senac.eShop.Domain.dll": {}
         }
+      },
+      "Senac.eShop.Domain.Shared/1.0.0": {
+        "runtime": {
+          "Senac.eShop.Domain.Shared.dll": {}
+        }
       }
     }
   },
@@ -1083,6 +1089,11 @@
       "sha512": ""
     },
     "Senac.eShop.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Senac.eShop.Domain.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -114,6 +114,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Senac.eShop.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Senac.eShop.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Senac.eShop.Core.dll": {}
+        }
       }
     }
   },
@@ -258,12 +268,18 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Senac.eShop.Core/1.0.0": {
+      "type": "project",
+      "path": "../Senac.eShop.Core/Senac.eShop.Core.csproj",
+      "msbuildProject": "../Senac.eShop.Core/Senac.eShop.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 13.0.1",
-      "MediatR >= 11.0.0"
+      "MediatR >= 11.0.0",
+      "Senac.eShop.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -292,7 +308,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj": {
+              "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
