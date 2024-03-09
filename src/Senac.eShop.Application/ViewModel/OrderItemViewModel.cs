@@ -17,10 +17,9 @@ namespace Senac.eShop.Application.ViewModel
         [Required(ErrorMessage = "O campo Nome do produto é obrigatório")]
         public string ProductName { get; set; }
         public decimal UnitPrice { get; set; }
-        [Required(ErrorMessage = "O campo Qauntidade é obrigatório")]
+        [Required(ErrorMessage = "O campo Quantidade é obrigatório")]
         public int Amount { get; set; }
         public string ProductImage { get; set; }
-
         public OrderViewModel Order { get; set; }
         public ProductViewModel Product { get; set; }
     }

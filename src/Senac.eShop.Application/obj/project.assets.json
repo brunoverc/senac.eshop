@@ -124,6 +124,29 @@
         "runtime": {
           "bin/placeholder/Senac.eShop.Core.dll": {}
         }
+      },
+      "Senac.eShop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Senac.eShop.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Senac.eShop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Senac.eShop.Domain.dll": {}
+        }
+      },
+      "Senac.eShop.Domain.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Senac.eShop.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Senac.eShop.Domain.Shared.dll": {}
+        }
       }
     }
   },
@@ -273,13 +296,25 @@
       "type": "project",
       "path": "../Senac.eShop.Core/Senac.eShop.Core.csproj",
       "msbuildProject": "../Senac.eShop.Core/Senac.eShop.Core.csproj"
+    },
+    "Senac.eShop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Senac.eShop.Domain/Senac.eShop.Domain.csproj",
+      "msbuildProject": "../Senac.eShop.Domain/Senac.eShop.Domain.csproj"
+    },
+    "Senac.eShop.Domain.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Senac.eShop.Domain.Shared/Senac.eShop.Domain.Shared.csproj",
+      "msbuildProject": "../Senac.eShop.Domain.Shared/Senac.eShop.Domain.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 13.0.1",
       "MediatR >= 11.0.0",
-      "Senac.eShop.Core >= 1.0.0"
+      "Senac.eShop.Core >= 1.0.0",
+      "Senac.eShop.Domain >= 1.0.0",
+      "Senac.eShop.Domain.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -311,6 +346,12 @@
           "projectReferences": {
             "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj": {
               "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj"
+            },
+            "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj": {
+              "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj"
+            },
+            "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj": {
+              "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj"
             }
           }
         }

@@ -3,8 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\automapper\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\automapper\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\viewmodel\\paymentmethodviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\viewmodel\\paymentmethodviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E84FA04-B416-4DA5-880A-6B9C0B1A6828}|src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.domain\\entities\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E84FA04-B416-4DA5-880A-6B9C0B1A6828}|src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj|solutionrelative:src\\senac.eshop.domain\\entities\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\viewmodel\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\viewmodel\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\viewmodel\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\viewmodel\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\interfaces\\ivoucherappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\interfaces\\ivoucherappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\interfaces\\iaddressappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\interfaces\\iaddressappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\interfaces\\iproductappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\interfaces\\iproductappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\interfaces\\iorderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\interfaces\\iorderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\interfaces\\ibasketappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\interfaces\\ibasketappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\interfaces\\iclientappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\interfaces\\iclientappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\interfaces\\ipaymentmethodappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\interfaces\\ipaymentmethodappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\automapper\\viewmodeltodomainmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\automapper\\viewmodeltodomainmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\automapper\\domaintoviewmodelmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\automapper\\domaintoviewmodelmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\viewmodel\\addressviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\viewmodel\\addressviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.application\\viewmodel\\voucherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4017E9C1-11BF-41B0-AE19-29EB35789DBF}|src\\Senac.eShop.Application\\Senac.eShop.Application.csproj|solutionrelative:src\\senac.eshop.application\\viewmodel\\voucherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +82,240 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\ViewModel\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\ProductViewModel.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\ViewModel\\ProductViewModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T00:32:09.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentMethodViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\PaymentMethodViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\ViewModel\\PaymentMethodViewModel.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\PaymentMethodViewModel.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\ViewModel\\PaymentMethodViewModel.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA9wBUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T00:31:53.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentMethod.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Entities\\PaymentMethod.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Domain\\Entities\\PaymentMethod.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Entities\\PaymentMethod.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Domain\\Entities\\PaymentMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T00:31:50.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\ViewModel\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\OrderViewModel.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\ViewModel\\OrderViewModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAswCIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T00:28:33.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Services\\BaseService.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\Services\\BaseService.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Services\\BaseService.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\Services\\BaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T00:19:17.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IVoucherAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IVoucherAppService.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\Interfaces\\IVoucherAppService.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IVoucherAppService.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\Interfaces\\IVoucherAppService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T23:50:43.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBasketAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IBasketAppService.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\Interfaces\\IBasketAppService.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IBasketAppService.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\Interfaces\\IBasketAppService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T23:45:48.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IOrderAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IOrderAppService.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\Interfaces\\IOrderAppService.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IOrderAppService.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\Interfaces\\IOrderAppService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T23:09:05.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\AutoMapper\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\AutoMapper\\AutoMapperConfig.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\AutoMapper\\AutoMapperConfig.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\AutoMapper\\AutoMapperConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T22:41:17.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IClientAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IClientAppService.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\Interfaces\\IClientAppService.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IClientAppService.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\Interfaces\\IClientAppService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T23:50:17.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IProductAppService.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\Interfaces\\IProductAppService.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IProductAppService.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\Interfaces\\IProductAppService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T22:53:37.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAddressAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IAddressAppService.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\Interfaces\\IAddressAppService.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IAddressAppService.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\Interfaces\\IAddressAppService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T22:45:20.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "OrderItemViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\OrderItemViewModel.cs",
               "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\ViewModel\\OrderItemViewModel.cs",
               "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\OrderItemViewModel.cs",
               "RelativeToolTip": "src\\Senac.eShop.Application\\ViewModel\\OrderItemViewModel.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAcwBgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T00:37:59.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPaymentMethodAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IPaymentMethodAppService.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\Interfaces\\IPaymentMethodAppService.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Interfaces\\IPaymentMethodAppService.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\Interfaces\\IPaymentMethodAppService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T23:50:28.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ViewModelToDomainMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\AutoMapper\\ViewModelToDomainMappingProfile.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\AutoMapper\\ViewModelToDomainMappingProfile.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\AutoMapper\\ViewModelToDomainMappingProfile.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\AutoMapper\\ViewModelToDomainMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T22:38:30.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddressViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\AddressViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\ViewModel\\AddressViewModel.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\AddressViewModel.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\ViewModel\\AddressViewModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T22:29:35.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DomainToViewModelMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\AutoMapper\\DomainToViewModelMappingProfile.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\AutoMapper\\DomainToViewModelMappingProfile.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\AutoMapper\\DomainToViewModelMappingProfile.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\AutoMapper\\DomainToViewModelMappingProfile.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T22:26:26.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VoucherViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\VoucherViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\ViewModel\\VoucherViewModel.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\ViewModel\\VoucherViewModel.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Application\\ViewModel\\VoucherViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T22:16:04.779Z",
               "EditorCaption": ""
             }
           ]
