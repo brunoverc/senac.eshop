@@ -15,7 +15,7 @@ namespace Senac.eShop.Application.Interfaces
         //Altera a quantidade de itens na cesta
         void UpdateItemQuantity(Guid idBasketItem, int quantity);
         //Limpa a cesta
-        void ClearBasket();
+        void ClearBasket(Guid basketId);
 
     }
 }

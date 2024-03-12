@@ -11,7 +11,7 @@ namespace Senac.eShop.Application.Interfaces
         IEnumerable<OrderViewModel> SetInsertNewItem(OrderItemViewModel model,
             Guid orderId);
         //Deleta um item da venda e retorna todos os itens
-        IEnumerable<OrderViewModel> DeleteItemInOrder(Guid orderItemId, Guid orderId);
+        IEnumerable<OrderItemViewModel> DeleteItemInOrder(Guid orderItemId, Guid orderId);
         //Altera a quantidade de um item em uma venda
         void UpdateQuantityItemInOrder(int orderItemId, Guid newQuantity);
         //Altera o status da venda
