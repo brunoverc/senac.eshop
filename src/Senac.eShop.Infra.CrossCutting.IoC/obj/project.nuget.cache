@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AeBsEAD9Q76fks0S0Ky6/rlgwJ+KHB9TwWIs4fzE+fAYMC2Vr7/UyqmFVnz/O5virR6mtnNbmPXattkO1coMag==",
+  "dgSpecHash": "iavs/vaIkquNrQ86lpCzC77eE9s5ULZdzKKal5l7qg9ot0BL4B2AhoULQOed49YAJbYx2zIqpGqamc6vfGjCCA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.CrossCutting.IoC\\Senac.eShop.Infra.CrossCutting.IoC.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

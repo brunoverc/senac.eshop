@@ -5,12 +5,7 @@ using Senac.eShop.Application.ViewModel;
 using Senac.eShop.Domain.Entities;
 using Senac.eShop.Domain.Interfaces;
 using Senac.eShop.Domain.Shared.Transaction;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Senac.eShop.Application.Services
 {

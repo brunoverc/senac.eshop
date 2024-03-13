@@ -7,13 +7,13 @@ namespace Senac.eShop.Application.Interfaces
     public interface IVoucherAppService
     {
         VoucherViewModel GetById(Guid id);
-        IEnumerable<AddressViewModel> Search(Expression<Func<Address, bool>> expression);
-        IEnumerable<AddressViewModel> Search(Expression<Func<Address, bool>> expression,
+        IEnumerable<VoucherViewModel> Search(Expression<Func<Voucher, bool>> expression);
+        IEnumerable<VoucherViewModel> Search(Expression<Func<Voucher, bool>> expression,
             int pageNumber,
             int pageSize);
-        AddressViewModel Add(AddressViewModel viewModel);
-        AddressViewModel Update(AddressViewModel viewModel);
+        VoucherViewModel Add(VoucherViewModel viewModel);
+        VoucherViewModel Update(VoucherViewModel viewModel);
         void Remove(Guid id);
-        void Remove(Expression<Func<Address, bool>> expression);
+        void Remove(Expression<Func<Voucher, bool>> expression);
     }
 }
