@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dvuiOQ16o0VuEmibpvc+qnfzkahRqg8WJsyTJE9Llvg9ieoT5V/XyQ15+1jaQPENCWJAozcIeIebvxJAZAQ66A==",
+  "dgSpecHash": "vRJqgvs8ioTSlXlBCpD3ducwJEtC9tdi0fbnBvvnv0NYwLFYtiRyJtcV8Pabhu4iEgTF6FTDooweDvL8Bu9LIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj",
   "expectedPackageFiles": [
@@ -60,10 +60,7 @@
     "C:\\Users\\Instrutor\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\Instrutor\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Instrutor\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\Instrutor\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+    "C:\\Users\\Instrutor\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

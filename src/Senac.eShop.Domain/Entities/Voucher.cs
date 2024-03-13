@@ -33,11 +33,12 @@ namespace Senac.eShop.Domain.Entities
 
         public void DebitAmount()
         {
-            Amount -= 1;
-            if(Amount == 0)
+            AmountUsed += 1;
+            if((Amount - AmountUsed) == 0)
             {
                 Active = false;
             }
         }
+
     }
 }

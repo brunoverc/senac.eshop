@@ -20,18 +20,21 @@ namespace Senac.eShop.Application.Services
         protected readonly IOrderItemRepository _itemRepository;
         protected readonly IMapper _mapper;
         protected readonly IAddressRepository _addressRepository;
+        protected readonly IVoucherRepository _voucherRepository;
 
         public OrderAppService(IOrderRepository repository,
             IOrderItemRepository itemRepository,
             IMapper mapper,
             IUnitOfWork unitOfWork,
             IMediator bus,
-            IAddressRepository addressRepository) : base(unitOfWork, bus)
+            IAddressRepository addressRepository,
+            IVoucherRepository voucherRepository) : base(unitOfWork, bus)
         {
             _repository = repository;
             _itemRepository = itemRepository;
             _mapper = mapper;
             _addressRepository = addressRepository;
+            _voucherRepository = voucherRepository;
         }
 
         public IEnumerable<OrderItemViewModel> DeleteItemInOrder(Guid orderItemId, Guid orderId)
@@ -63,27 +66,118 @@ namespace Senac.eShop.Application.Services
 
         public OrderViewModel SetApplyVoucher(Guid orderId, string code)
         {
-            throw new NotImplementedException();
+            //1. Verificar se é um voucher válido
+            var vouchers = _voucherRepository.Search(v => v.Code == code &&
+            v.Active);
+            if(!vouchers.Any())
+            {
+                throw new Exception("Voucher enviado é inválido.");
+            }
+
+            var voucher = vouchers.FirstOrDefault();
+
+            //2. Verificar se a data de validade não foi atingida
+            if(voucher.ExpirationDate < DateTime.Now)
+            {
+                throw new Exception("Voucher vencido.");
+            }
+
+            //3. Vericar o valor do desconto
+            var order = _repository.GetById(orderId);
+            decimal discountValue = 0;
+            if(voucher.DiscountType == DiscountTypeVoucher.Percentual)
+            {
+                discountValue = order.TotalValue * (voucher.Value / 100);
+            }
+            else
+            {
+                discountValue = voucher.Value;
+            }
+
+            //4. Aplicar o desconto
+            if((order.TotalValue - discountValue) < 0)
+            {
+                order.SetFinalValue(0);
+                order.SetDiscountValue(order.TotalValue);
+            }
+            else
+            {
+                order.SetFinalValue(order.TotalValue - discountValue);
+                order.SetDiscountValue(discountValue);
+            }
+
+            order = _repository.Update(order);
+            Commit();
+
+            //5. Dar baixa no voucher
+            voucher.DebitAmount();
+            _voucherRepository.Update(voucher);
+            Commit();
+
+            //6. Retorna a order alterada
+            var orderViewModel = _mapper.Map<OrderViewModel>(order);
+            return orderViewModel;
         }
 
         public OrderViewModel SetCreateNewOrder(OrderViewModel viewModel)
         {
-            throw new NotImplementedException();
+            var order = _mapper.Map<Order>(viewModel);
+            order = _repository.Add(order);
+            Commit();
+
+            var orderViewModel = _mapper.Map<OrderViewModel>(order);
+            return orderViewModel;
+
         }
 
-        public IEnumerable<OrderViewModel> SetInsertNewItem(OrderItemViewModel model, Guid orderId)
+        public IEnumerable<OrderItemViewModel> SetInsertNewItem(OrderItemViewModel model, Guid orderId)
         {
-            throw new NotImplementedException();
+            var item = _mapper.Map<OrderItem>(model);
+            _ = _itemRepository.Add(item);
+
+            Commit();
+
+            var orderItems = _itemRepository.Search(oi => oi.OrderId == orderId);
+            return _mapper.Map<IEnumerable<OrderItemViewModel>>(orderItems);
         }
 
-        public void UpdateQuantityItemInOrder(int orderItemId, Guid newQuantity)
+        public void UpdateQuantityItemInOrder(Guid orderItemId, int newQuantity)
         {
-            throw new NotImplementedException();
+            if(newQuantity == 0)
+            {
+                _itemRepository.Remove(orderItemId);
+            }
+            else
+            {
+                var orderItem = _itemRepository.GetById(orderItemId);
+                orderItem.SetAddAmount(newQuantity);
+                _ = _itemRepository.Update(orderItem);
+                Commit();
+            }            
         }
 
         public OrderViewModel UpdateStatusOrder(Guid orderId, OrderStatus newStatus)
         {
-            throw new NotImplementedException();
+            var order = _repository.GetById(orderId);
+            switch (newStatus)
+            {
+                case OrderStatus.Autorizado:
+                    order.AuthorizedOrder();
+                    break;
+                case OrderStatus.Cancelado:
+                    order.CanceledOrder();
+                    break;
+                case OrderStatus.Entregue:
+                    order.DeliveredOrder();
+                    break;
+                case OrderStatus.EmProcessamento:
+                    order.ProcessedOrder();
+                    break;
+            }
+            order = _repository.Update(order);
+            Commit();
+            var orderViewModel = _mapper.Map<OrderViewModel>(order);
+            return orderViewModel;
         }
     }
 }

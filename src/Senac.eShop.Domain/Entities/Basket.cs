@@ -16,11 +16,13 @@ namespace Senac.eShop.Domain.Entities
             ClientId = client.Id;
             //Inicilizando uma nova Lista
             Items = new List<BasketItem>();
+            Active = true;
         }
 
         public Guid ClientId { get; private set; }
         public Client Client { get; private set; }
         public List<BasketItem> Items { get; private set; }
+        public bool Active { get; private set; }
 
         public void AddItem(BasketItem item)
         {
@@ -39,6 +41,11 @@ namespace Senac.eShop.Domain.Entities
         public void SetUpdateAmountItem(BasketItem item, int newAmount)
         {
             Items.Where(i => i.Id == item.Id).First().SetAmount(newAmount);
+        }
+
+        public void InactiveBasket()
+        {
+            Active = false;
         }
     }
 }

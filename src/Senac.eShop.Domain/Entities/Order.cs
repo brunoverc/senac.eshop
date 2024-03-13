@@ -153,5 +153,15 @@ namespace Senac.eShop.Domain.Entities
 
         public void DeliveredOrder() =>
             Status = OrderStatus.Entregue;
+
+        public void SetFinalValue(decimal value)
+        {
+            FinalValue = value;
+        }
+
+        public void SetDiscountValue(decimal value)
+        {
+            DiscountValue = value;
+        }
     }
 }

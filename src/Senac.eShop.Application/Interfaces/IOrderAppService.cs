@@ -8,12 +8,12 @@ namespace Senac.eShop.Application.Interfaces
         //Método usado para criar uma nova venda
         OrderViewModel SetCreateNewOrder(OrderViewModel viewModel);
         //Insere um item na venda e retorna todos os itens da venda
-        IEnumerable<OrderViewModel> SetInsertNewItem(OrderItemViewModel model,
+        IEnumerable<OrderItemViewModel> SetInsertNewItem(OrderItemViewModel model,
             Guid orderId);
         //Deleta um item da venda e retorna todos os itens
         IEnumerable<OrderItemViewModel> DeleteItemInOrder(Guid orderItemId, Guid orderId);
         //Altera a quantidade de um item em uma venda
-        void UpdateQuantityItemInOrder(int orderItemId, Guid newQuantity);
+        void UpdateQuantityItemInOrder(Guid orderItemId, int newQuantity);
         //Altera o status da venda
         OrderViewModel UpdateStatusOrder(Guid orderId, OrderStatus newStatus);
         //Insere o endereço da entrega
