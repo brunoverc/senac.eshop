@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "src\\Senac.eShop.Application\\Services\\ProdutoAppService.cs",
               "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Services\\ProdutoAppService.cs",
               "RelativeToolTip": "src\\Senac.eShop.Application\\Services\\ProdutoAppService.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAAAGAAAAAJAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAGIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T22:50:18.709Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "src\\Senac.eShop.Application\\Services\\AddressAppService.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAUwFMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T22:10:17.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T22:10:17.148Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "src\\Senac.eShop.Application\\Services\\VoucherAppService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T22:10:03.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T22:10:03.85Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "src\\Senac.eShop.Application\\Services\\PaymentMethodAppService.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAowDkAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T22:09:41.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T22:09:41.528Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "src\\Senac.eShop.Application\\Services\\ClientAppService.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAA1wFMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T22:09:21.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T22:09:21.685Z"
             }
           ]
         }
