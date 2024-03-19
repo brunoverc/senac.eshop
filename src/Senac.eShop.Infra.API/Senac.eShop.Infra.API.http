@@ -1,0 +1,6 @@
+@Senac.eShop.Infra.API_HostAddress = http://localhost:5047
+
+GET {{Senac.eShop.Infra.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

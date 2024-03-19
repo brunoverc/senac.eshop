@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Senac.eShop.Domain.Shared/1.0.0": {
+        "runtime": {
+          "Senac.eShop.Domain.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Senac.eShop.Domain.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
