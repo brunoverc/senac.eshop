@@ -6,7 +6,6 @@ C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\De
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\Senac.eShop.API.dll
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\Senac.eShop.API.pdb
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\Dapper.dll

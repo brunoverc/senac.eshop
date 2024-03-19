@@ -1,4 +1,6 @@
-﻿using Serilog;
+﻿
+using Senac.eShop.Application.AutoMapper;
+using Serilog;
 
 namespace Senac.eShop.Infra.API.Configuration
 {
@@ -20,6 +22,7 @@ namespace Senac.eShop.Infra.API.Configuration
             services.AddSwaggerGen();
             services.AddHttpContextAccessor();
             //services.AddAutoMapper(AppDomain.CurrentDomain.Load("Senac.eShop.Application"));
+            services.AddAutoMapper(typeof(AutoMapperConfig));
             services.DbContextConfigureServices(configuration);
             services.Configure<IISServerOptions>(options =>
             {

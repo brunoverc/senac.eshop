@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Z0f69ViK8bE0I1f7kp0wwlujyuzon9YMwbEpbqFv2ZbrpvD4NuQryivvW6atS6EXtAqvAKY8e9MCNh203i4I7g==",
+  "dgSpecHash": "TH/NIfj0eTp3t83SS4vT4gDilXh8IDImbSw9ojj5ywhV4tBOa4ozx8f78vO0jAthh06xttsBlQiROaNJ5zEJeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.API\\Senac.eShop.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Instrutor\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
-    "C:\\Users\\Instrutor\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Instrutor\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Instrutor\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Instrutor\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",

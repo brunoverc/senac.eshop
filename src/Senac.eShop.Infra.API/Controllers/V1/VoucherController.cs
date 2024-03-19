@@ -4,7 +4,8 @@ using Senac.eShop.Application.ViewModel;
 
 namespace Senac.eShop.API.Controllers.V1
 {
-    public class VoucherController : Controller
+    [ApiController]
+    [Route("api/v1/voucher")]
     public class VoucherController : Controller
     {
         private readonly IVoucherAppService _voucherAppService;

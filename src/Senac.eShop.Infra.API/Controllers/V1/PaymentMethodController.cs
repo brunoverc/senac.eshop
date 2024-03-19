@@ -5,6 +5,7 @@ using Senac.eShop.Application.ViewModel;
 namespace Senac.eShop.API.Controllers.V1
 {
     [ApiController]
+    [Route("api/v1/payment-method")]
     public class PaymentMethodController : Controller
     {
         private readonly IPaymentMethodAppService _paymentMethodAppService;

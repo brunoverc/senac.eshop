@@ -50,7 +50,7 @@ namespace Senac.eShop.API.Controllers.V1
             return Ok();
         }
 
-        public ActionResult ClearBasket(Guid basketId)
+        [HttpPut("clear")]
         public ActionResult ClearBasket(Guid basketId)
         {
             _basketAppService.ClearBasket(basketId);

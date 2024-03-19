@@ -6,6 +6,7 @@ using Senac.eShop.Domain.Shared.Transaction;
 using Senac.eShop.Infra.Data.Context;
 using Senac.eShop.Infra.Data.Repositories;
 using Senac.eShop.Infra.Data.UoW;
+using System.Reflection;
 
 namespace Senac.eShop.Infra.API.Configuration
 {
@@ -21,7 +22,9 @@ namespace Senac.eShop.Infra.API.Configuration
         public static void AddMediatr(this IServiceCollection services)
         {
             //Você deve adicionar para todos os projetos
-            services.AddMediatR(AppDomain.CurrentDomain.Load("Senac.eShop.Domain"));
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
+
+            //services.AddMediatR(AppDomain.CurrentDomain.Load("Senac.eShop.Domain"));
         }
 
         public static void AddRepositories(this IServiceCollection services)

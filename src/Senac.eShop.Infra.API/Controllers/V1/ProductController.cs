@@ -54,6 +54,7 @@ namespace Senac.eShop.API.Controllers.V1
         public ActionResult SetDecreaseStock(Guid productId, int quantity)
         {
             try
+            {
                 _productAppService.UpdateStock(productId, quantity);
                 _productAppService.UpdateStock(productId, quantity);
                 return Ok();
@@ -64,9 +65,10 @@ namespace Senac.eShop.API.Controllers.V1
             }
         }
 
+        [HttpPost("check-quantity-stock")]
         public ActionResult<int> CheckQuantityStock(Guid productId)
         {
-            return _productAppService.CheckQuantityStock(productId);
+            return Ok(_productAppService.CheckQuantityStock(productId));
         }
     }
 }

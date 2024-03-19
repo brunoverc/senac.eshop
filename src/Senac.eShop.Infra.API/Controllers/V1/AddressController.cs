@@ -16,7 +16,6 @@ namespace Senac.eShop.API.Controllers.V1
         }
 
         [HttpGet]
-        // Traz todos os endereços cadastrados no sistema
         public ActionResult<IEnumerable<AddressViewModel>> Get()
         {
             var result = _addressAppService.Search(a => true);
@@ -25,7 +24,6 @@ namespace Senac.eShop.API.Controllers.V1
         }
 
         [HttpGet("{id}")]
-        // Traz um Endereço de acordo com o seu ID
         public ActionResult<AddressViewModel> Get(Guid id)
         {
             var result = _addressAppService.GetById(id);
@@ -33,7 +31,6 @@ namespace Senac.eShop.API.Controllers.V1
         }
 
         [HttpPost]
-        //Insere um endereço no banco de dados
         public ActionResult PostAsync([FromBody] AddressViewModel model)
         {
             var result = _addressAppService.Add(model);
