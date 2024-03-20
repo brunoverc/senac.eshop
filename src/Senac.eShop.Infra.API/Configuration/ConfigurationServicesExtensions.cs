@@ -9,7 +9,10 @@ namespace Senac.eShop.Infra.API.Configuration
             IConfiguration configuration)
         {
             string connectionString = configuration.GetConnectionString("DefaultConnection");
+
             services.AddDbContext<EShopDbContext>(options => options.UseSqlServer(connectionString));
+
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
 
             services.AddDistributedMemoryCache();
 

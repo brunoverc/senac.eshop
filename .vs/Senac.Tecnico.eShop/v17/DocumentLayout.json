@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.data\\mapping\\ordermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|solutionrelative:src\\senac.eshop.infra.data\\mapping\\ordermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B1D4D06-B7F3-4F61-BC7B-B28CDCFF097B}|src\\Senac.eShop.Infra.CrossCutting.IoC\\Senac.eShop.Infra.CrossCutting.IoC.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.crosscutting.ioc\\authorization\\signingcredentialsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D4D06-B7F3-4F61-BC7B-B28CDCFF097B}|src\\Senac.eShop.Infra.CrossCutting.IoC\\Senac.eShop.Infra.CrossCutting.IoC.csproj|solutionrelative:src\\senac.eshop.infra.crosscutting.ioc\\authorization\\signingcredentialsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Migrations\\20240319230147_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Senac.eShop.Infra.Data\\Migrations\\20240319230147_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3571F96A-38A9-462E-A511-E97B3D272750}|src\\Senac.eShop.Infra.API\\Senac.eShop.API.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.api\\configuration\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3571F96A-38A9-462E-A511-E97B3D272750}|src\\Senac.eShop.Infra.API\\Senac.eShop.API.csproj|solutionrelative:src\\senac.eshop.infra.api\\configuration\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.data\\mapping\\orderitemmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|solutionrelative:src\\senac.eshop.infra.data\\mapping\\orderitemmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3571F96A-38A9-462E-A511-E97B3D272750}|src\\Senac.eShop.Infra.API\\Senac.eShop.API.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.api\\controllers\\v1\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3571F96A-38A9-462E-A511-E97B3D272750}|src\\Senac.eShop.Infra.API\\Senac.eShop.API.csproj|solutionrelative:src\\senac.eshop.infra.api\\controllers\\v1\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.data\\mapping\\clientmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|solutionrelative:src\\senac.eshop.infra.data\\mapping\\clientmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3571F96A-38A9-462E-A511-E97B3D272750}|src\\Senac.eShop.Infra.API\\Senac.eShop.API.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.api\\controllers\\v1\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3571F96A-38A9-462E-A511-E97B3D272750}|src\\Senac.eShop.Infra.API\\Senac.eShop.API.csproj|solutionrelative:src\\senac.eshop.infra.api\\controllers\\v1\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.data\\context\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}|src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj|solutionrelative:src\\senac.eshop.infra.data\\context\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3571F96A-38A9-462E-A511-E97B3D272750}|src\\Senac.eShop.Infra.API\\Senac.eShop.API.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.api\\configuration\\configurationservicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3571F96A-38A9-462E-A511-E97B3D272750}|src\\Senac.eShop.Infra.API\\Senac.eShop.API.csproj|solutionrelative:src\\senac.eshop.infra.api\\configuration\\configurationservicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3571F96A-38A9-462E-A511-E97B3D272750}|src\\Senac.eShop.Infra.API\\Senac.eShop.API.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.infra.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3571F96A-38A9-462E-A511-E97B3D272750}|src\\Senac.eShop.Infra.API\\Senac.eShop.API.csproj|solutionrelative:src\\senac.eshop.infra.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderItemMap.cs",
-              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\OrderItemMap.cs",
-              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.Data\\Mapping\\OrderItemMap.cs",
-              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\OrderItemMap.cs",
-              "RelativeToolTip": "src\\Senac.eShop.Infra.Data\\Mapping\\OrderItemMap.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "SigningCredentialsConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.CrossCutting.IoC\\Authorization\\SigningCredentialsConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.CrossCutting.IoC\\Authorization\\SigningCredentialsConfiguration.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.CrossCutting.IoC\\Authorization\\SigningCredentialsConfiguration.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Infra.CrossCutting.IoC\\Authorization\\SigningCredentialsConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T23:04:18.363Z",
+              "WhenOpened": "2024-03-20T00:46:20.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.API\\Controllers\\V1\\AddressController.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.API\\Controllers\\V1\\AddressController.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.API\\Controllers\\V1\\AddressController.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Infra.API\\Controllers\\V1\\AddressController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T00:22:48.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ClientMap.cs",
-              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\ClientMap.cs",
-              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.Data\\Mapping\\ClientMap.cs",
-              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\ClientMap.cs",
-              "RelativeToolTip": "src\\Senac.eShop.Infra.Data\\Mapping\\ClientMap.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.API\\Controllers\\V1\\OrderController.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.API\\Controllers\\V1\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.API\\Controllers\\V1\\OrderController.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Infra.API\\Controllers\\V1\\OrderController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAA4wBMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T23:04:14.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderMap.cs",
-              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\OrderMap.cs",
-              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.Data\\Mapping\\OrderMap.cs",
-              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Mapping\\OrderMap.cs",
-              "RelativeToolTip": "src\\Senac.eShop.Infra.Data\\Mapping\\OrderMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T23:04:02.659Z",
+              "WhenOpened": "2024-03-19T23:58:35.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20240319230147_FirstMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Migrations\\20240319230147_FirstMigration.cs",
-              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.Data\\Migrations\\20240319230147_FirstMigration.cs",
-              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Migrations\\20240319230147_FirstMigration.cs",
-              "RelativeToolTip": "src\\Senac.eShop.Infra.Data\\Migrations\\20240319230147_FirstMigration.cs",
-              "ViewState": "AQIAAL4AAAAAAAAAAAAgwM8AAAA8AAAA",
+              "Title": "ApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.API\\Configuration\\ApiConfig.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.API\\Configuration\\ApiConfig.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.API\\Configuration\\ApiConfig.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Infra.API\\Configuration\\ApiConfig.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowDcAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T23:01:47.405Z",
+              "WhenOpened": "2024-03-19T23:51:41.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.API\\Program.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Infra.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T23:51:36.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfigurationServicesExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.API\\Configuration\\ConfigurationServicesExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.API\\Configuration\\ConfigurationServicesExtensions.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.API\\Configuration\\ConfigurationServicesExtensions.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Infra.API\\Configuration\\ConfigurationServicesExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T23:50:49.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IdentityDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Context\\IdentityDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Infra.Data\\Context\\IdentityDbContext.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Context\\IdentityDbContext.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Infra.Data\\Context\\IdentityDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T23:49:12.056Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Senac.eShop.Application.Interfaces;
 using Senac.eShop.Application.ViewModel;
 using Senac.eShop.Core.Enums;

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ny6JTHxBBuWWmuWRvWDaG2S6QBJouxMHRx69FZTF4w5qiyStPNw5OfqirdCd3LptKLxtOa9qrX1IFu/V2vqyoQ==",
+  "dgSpecHash": "zSsRatJpie5h62OBv4ooRhSJHiu1PGWvHgrPV0ri/6EtkdXeoN7Z7IQ5YqXn6OI1QLQKFetCcgkVV5X0oZy+/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.CrossCutting.IoC\\Senac.eShop.Infra.CrossCutting.IoC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.4.1\\microsoft.identitymodel.abstractions.7.4.1.nupkg.sha512",
+    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.identitymodel.logging\\7.4.1\\microsoft.identitymodel.logging.7.4.1.nupkg.sha512",
+    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.4.1\\microsoft.identitymodel.tokens.7.4.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -160,3 +160,9 @@ C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\obj\De
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\obj\Debug\net8.0\Senac.eShop.API.pdb
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\obj\Debug\net8.0\Senac.eShop.API.genruntimeconfig.cache
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\obj\Debug\net8.0\ref\Senac.eShop.API.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Infra.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
