@@ -19,17 +19,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Test", "6 - Test", "{DFAD14AD-C2F2-4F33-B67B-FDF144D8D81B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senac.eShop.Core", "src\Senac.eShop.Core\Senac.eShop.Core.csproj", "{FB166D63-B2F0-48BA-94C3-0FEA2C107F35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senac.eShop.Core", "src\Senac.eShop.Core\Senac.eShop.Core.csproj", "{FB166D63-B2F0-48BA-94C3-0FEA2C107F35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senac.eShop.Application", "src\Senac.eShop.Application\Senac.eShop.Application.csproj", "{4017E9C1-11BF-41B0-AE19-29EB35789DBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senac.eShop.Application", "src\Senac.eShop.Application\Senac.eShop.Application.csproj", "{4017E9C1-11BF-41B0-AE19-29EB35789DBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senac.eShop.Domain", "src\Senac.eShop.Domain\Senac.eShop.Domain.csproj", "{8E84FA04-B416-4DA5-880A-6B9C0B1A6828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senac.eShop.Domain", "src\Senac.eShop.Domain\Senac.eShop.Domain.csproj", "{8E84FA04-B416-4DA5-880A-6B9C0B1A6828}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senac.eShop.Domain.Shared", "src\Senac.eShop.Domain.Shared\Senac.eShop.Domain.Shared.csproj", "{18EF58B4-4EE5-42C9-BFCC-F388D7EC8642}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senac.eShop.Domain.Shared", "src\Senac.eShop.Domain.Shared\Senac.eShop.Domain.Shared.csproj", "{18EF58B4-4EE5-42C9-BFCC-F388D7EC8642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senac.eShop.Infra.CrossCutting.IoC", "src\Senac.eShop.Infra.CrossCutting.IoC\Senac.eShop.Infra.CrossCutting.IoC.csproj", "{3B1D4D06-B7F3-4F61-BC7B-B28CDCFF097B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senac.eShop.Infra.CrossCutting.IoC", "src\Senac.eShop.Infra.CrossCutting.IoC\Senac.eShop.Infra.CrossCutting.IoC.csproj", "{3B1D4D06-B7F3-4F61-BC7B-B28CDCFF097B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senac.eShop.Infra.Data", "src\Senac.eShop.Infra.Data\Senac.eShop.Infra.Data.csproj", "{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senac.eShop.Infra.Data", "src\Senac.eShop.Infra.Data\Senac.eShop.Infra.Data.csproj", "{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senac.eShop.API", "src\Senac.eShop.API\Senac.eShop.API.csproj", "{873B258D-2BEE-4277-9385-37BF3497319B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873B258D-2BEE-4277-9385-37BF3497319B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873B258D-2BEE-4277-9385-37BF3497319B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873B258D-2BEE-4277-9385-37BF3497319B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873B258D-2BEE-4277-9385-37BF3497319B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +85,7 @@ Global
 		{18EF58B4-4EE5-42C9-BFCC-F388D7EC8642} = {DAC466A8-E945-4C14-B70E-19DAEC1E686B}
 		{3B1D4D06-B7F3-4F61-BC7B-B28CDCFF097B} = {EB1DD14D-18A3-4EF0-8B5E-28C8358605CA}
 		{D71E7DDA-DAC5-44D6-8DD6-0BF297C8EF8B} = {EB1DD14D-18A3-4EF0-8B5E-28C8358605CA}
+		{873B258D-2BEE-4277-9385-37BF3497319B} = {4E5D6871-EA50-44C8-B08E-4B8BA4599606}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719F8FAD-9D07-4797-BCC7-E7525A7F6645}
