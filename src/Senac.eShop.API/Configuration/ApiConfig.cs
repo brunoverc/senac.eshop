@@ -20,7 +20,6 @@ namespace Senac.eShop.API.Configuration
 
             services.AddSwaggerGen();
             services.AddHttpContextAccessor();
-            //services.AddAutoMapper(AppDomain.CurrentDomain.Load("Senac.eShop.Application"));
             services.AddAutoMapper(typeof(AutoMapperConfig));
             services.DbContextConfigureServices(configuration);
             services.Configure<IISServerOptions>(options =>
@@ -39,7 +38,7 @@ namespace Senac.eShop.API.Configuration
         {
             app.UseHttpsRedirection();
             app.UseRouting();
-            app.UseAuthorization();
+            //app.UseAuthorization();
             app.UseCors("MyPolicy");
 
             app.UseSwagger();
