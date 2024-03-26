@@ -30,7 +30,8 @@ namespace Senac.eShop.API.Controllers.V1
         }
 
         [HttpPost("add-item")]
-        public ActionResult<IEnumerable<BasketItemViewModel>> AddItemBasket([FromBody] BasketItemViewModel viewModel)
+        public ActionResult<IEnumerable<BasketItemViewModel>> AddItemBasket([FromBody] 
+        BasketItemViewModel viewModel)
         {
             var result = _basketAppService.AddItemBasket(viewModel);
             return Ok(result);

@@ -17,15 +17,16 @@ namespace Senac.eShop.API.Controllers.V1
             _orderAppService = orderAppService;
         }
 
-        [HttpPost("createNewOrder")]
+        [HttpPost("create-new-order")]
         public ActionResult CreateNewOrderAsync([FromBody] OrderViewModel model)
         {
             var result = _orderAppService.SetCreateNewOrder(model);
             return Ok(result);
         }
 
-        [HttpPost("insertNewItem")]
-        public ActionResult<IEnumerable<OrderItemViewModel>> InsertNewItem([FromBody] OrderItemViewModel model,
+        [HttpPost("insert-new-item")]
+        public ActionResult<IEnumerable<OrderItemViewModel>> InsertNewItem([FromBody] 
+        OrderItemViewModel model,
             Guid orderId)
         {
             var result = _orderAppService.SetInsertNewItem(model, orderId);
@@ -33,20 +34,22 @@ namespace Senac.eShop.API.Controllers.V1
         }
 
         [HttpDelete("{orderItemId}/{orderId}")]
-        public ActionResult<IEnumerable<OrderItemViewModel>> DeleteItem(Guid orderItemId, Guid orderId)
+        public ActionResult<IEnumerable<OrderItemViewModel>> DeleteItem(Guid orderItemId, 
+            Guid orderId)
         {
             var result = _orderAppService.DeleteItemInOrder(orderItemId, orderId);
             return Ok(result);
         }
 
         [HttpPut("address-delivery/{orderId}")]
-        public ActionResult<OrderViewModel> SetAddressDelivery(Guid orderId, [FromBody] AddressViewModel addressModel)
+        public ActionResult<OrderViewModel> SetAddressDelivery(Guid orderId, 
+            [FromBody] AddressViewModel addressModel)
         {
             var result = _orderAppService.SetAddressDelivery(orderId, addressModel);
             return result;
         }
 
-        [HttpPut("quantity-item/{orderItemId}/{newQuantity}")]
+        [HttpPut("update-quantity-item/{orderItemId}/{newQuantity}")]
         public bool UpdateQuantityItem(Guid orderItemId, int newQuantity)
         {
             _orderAppService.UpdateQuantityItemInOrder(orderItemId, newQuantity);

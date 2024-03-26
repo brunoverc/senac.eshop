@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{873B258D-2BEE-4277-9385-37BF3497319B}|src\\Senac.eShop.API\\Senac.eShop.API.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.api\\controllers\\v1\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873B258D-2BEE-4277-9385-37BF3497319B}|src\\Senac.eShop.API\\Senac.eShop.API.csproj|solutionrelative:src\\senac.eshop.api\\controllers\\v1\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873B258D-2BEE-4277-9385-37BF3497319B}|src\\Senac.eShop.API\\Senac.eShop.API.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.api\\controllers\\v1\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873B258D-2BEE-4277-9385-37BF3497319B}|src\\Senac.eShop.API\\Senac.eShop.API.csproj|solutionrelative:src\\senac.eshop.api\\controllers\\v1\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.API\\Controllers\\V1\\OrderController.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.API\\Controllers\\V1\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.API\\Controllers\\V1\\OrderController.cs",
+              "RelativeToolTip": "src\\Senac.eShop.API\\Controllers\\V1\\OrderController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAcwEQAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T23:59:22.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.API\\Controllers\\V1\\BasketController.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.API\\Controllers\\V1\\BasketController.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.API\\Controllers\\V1\\BasketController.cs",
+              "RelativeToolTip": "src\\Senac.eShop.API\\Controllers\\V1\\BasketController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAB8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T23:53:57.381Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

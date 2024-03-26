@@ -51,11 +51,10 @@ namespace Senac.eShop.API.Controllers.V1
         }
 
         [HttpPost("update-stock/{productId}/{quantity}")]
-        public ActionResult SetDecreaseStock(Guid productId, int quantity)
+        public ActionResult SetUpdateStock(Guid productId, int quantity)
         {
             try
             {
-                _productAppService.UpdateStock(productId, quantity);
                 _productAppService.UpdateStock(productId, quantity);
                 return Ok();
             }
