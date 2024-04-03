@@ -36,7 +36,11 @@ namespace Senac.eShop.Domain.Entities
 
         public void SetAddress(Address address)
         {
-            AddressId = address.Id;
+            if(address != null)
+            {
+                AddressId = address.Id;
+            }
+            
             AddressClient = address;
         }
 

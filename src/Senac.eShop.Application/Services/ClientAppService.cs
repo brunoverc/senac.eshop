@@ -12,19 +12,24 @@ namespace Senac.eShop.Application.Services
     public class ClientAppService : BaseService, IClientAppService
     {
         protected readonly IClientRepository _repository;
+        protected readonly IAddressAppService _addressAppService;
         protected readonly IMapper _mapper;
 
         public ClientAppService(IClientRepository repository,
             IMapper mapper,
             IUnitOfWork unitOfWork,
-            IMediator bus) : base(unitOfWork, bus)
+            IMediator bus,
+            IAddressAppService addressAppService) : base(unitOfWork, bus)
         {
             _repository = repository;
             _mapper = mapper;
+            _addressAppService = addressAppService;
         }
 
         public ClientViewModel Add(ClientViewModel viewModel)
         {
+            viewModel.AddressClient = _addressAppService.GetById(viewModel.AddressId);
+
             Client domain = _mapper.Map<Client>(viewModel);
             domain = _repository.Add(domain);
             Commit();

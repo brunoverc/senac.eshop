@@ -12,6 +12,8 @@ namespace Senac.eShop.Infra.Data.Repositories
 
         public Client Add(Client entity)
         {
+            entity.SetAddress(null);
+
             DbSet.Add(entity);
             return entity;
         }

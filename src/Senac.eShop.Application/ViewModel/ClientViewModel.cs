@@ -22,7 +22,7 @@ namespace Senac.eShop.Application.ViewModel
         public DateTime Birth { get; set; }
         [Required(ErrorMessage = "O campo AddressId é obrigatório.")]
         public Guid AddressId { get; set; }
-        public AddressViewModel AddressClient { get; set; }
-        public IEnumerable<PaymentMethodViewModel> PaymentMethods { get; set; }
+        public AddressViewModel? AddressClient { get; set; }
+        public IEnumerable<PaymentMethodViewModel>? PaymentMethods { get; set; }
     }
 }
