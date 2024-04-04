@@ -1,4 +1,5 @@
-﻿using Senac.eShop.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Senac.eShop.Domain.Entities;
 using Senac.eShop.Domain.Interfaces;
 using Senac.eShop.Infra.Data.Context;
 using System.Linq.Expressions;
@@ -7,8 +8,11 @@ namespace Senac.eShop.Infra.Data.Repositories
 {
     public class ClientRepository : Repository<Client>, IClientRepository
     {
-        public ClientRepository(EShopDbContext context) : base(context)
-        { }
+        protected readonly IAddressRepository _addressRepository;
+        public ClientRepository(EShopDbContext context, IAddressRepository addressRepository) : base(context)
+        {
+            _addressRepository = addressRepository;
+        }
 
         public Client Add(Client entity)
         {
@@ -22,6 +26,11 @@ namespace Senac.eShop.Infra.Data.Repositories
         {
             var context = DbSet.AsQueryable();
             var client = context.FirstOrDefault(c => c.Id == id);
+
+            if(client.AddressClient == null)
+            {
+                client.SetAddress(_addressRepository.GetById(client.AddressId));
+            }
             return client;
         }
 
@@ -43,7 +52,7 @@ namespace Senac.eShop.Infra.Data.Repositories
 
         public IEnumerable<Client> Search(Expression<Func<Client, bool>> predicate)
         {
-            var context = DbSet.AsQueryable();
+            var context = DbSet.AsQueryable().Include("AddressClient");
             return context.Where(predicate).ToList();
         }
 
@@ -51,7 +60,7 @@ namespace Senac.eShop.Infra.Data.Repositories
             int pageNumber,
             int pageSize)
         {
-            var context = DbSet.AsQueryable();
+            var context = DbSet.AsQueryable().Include("AddressClient");
             var result = context.Where(predicate)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize);

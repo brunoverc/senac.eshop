@@ -1,6 +1,8 @@
 ﻿using Senac.eShop.Core.DomainObjects;
+using Senac.eShop.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,19 +12,30 @@ namespace Senac.eShop.Domain.Entities
     public class Basket : Entity
     {
         protected Basket() { }
-        public Basket(Client client)
+        public Basket(Client client, Guid clientId)
         {
             Client = client;
-            ClientId = client.Id;
+            ClientId = clientId;
             //Inicilizando uma nova Lista
             Items = new List<BasketItem>();
             Active = true;
         }
 
         public Guid ClientId { get; private set; }
+        [NotMapped]
         public Client Client { get; private set; }
         public List<BasketItem> Items { get; private set; }
         public bool Active { get; private set; }
+
+        public void SetClient(Client client)
+        {
+            if(client != null)
+            {
+                ClientId = client.Id;
+            }
+
+            Client = client;
+        }
 
         public void AddItem(BasketItem item)
         {

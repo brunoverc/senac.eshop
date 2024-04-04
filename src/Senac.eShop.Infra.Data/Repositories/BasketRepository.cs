@@ -1,4 +1,5 @@
-﻿using Senac.eShop.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Senac.eShop.Domain.Entities;
 using Senac.eShop.Domain.Interfaces;
 using Senac.eShop.Infra.Data.Context;
 using System.Linq.Expressions;
@@ -7,12 +8,21 @@ namespace Senac.eShop.Infra.Data.Repositories
 {
     public class BasketRepository : Repository<Basket>, IBasketRepository
     {
-        public BasketRepository(EShopDbContext context) : base(context)
-        { }
+        protected readonly IClientRepository _clientRepository;
+        public BasketRepository(EShopDbContext context, IClientRepository clientRepository) : base(context)
+        {
+            _clientRepository = clientRepository;
+        }
 
         public Basket Add(Basket entity)
         {
             DbSet.Add(entity);
+
+            if (entity.Client == null)
+            {
+                entity.SetClient(_clientRepository.GetById(entity.ClientId));
+            }
+
             return entity;
         }
 
@@ -20,6 +30,10 @@ namespace Senac.eShop.Infra.Data.Repositories
         {
             var context = DbSet.AsQueryable();
             var basket = context.FirstOrDefault(c => c.Id == id);
+            if(basket.Client == null)
+            {
+                basket.SetClient(_clientRepository.GetById(basket.ClientId));
+            }
             return basket;
         }
 
@@ -41,7 +55,7 @@ namespace Senac.eShop.Infra.Data.Repositories
 
         public IEnumerable<Basket> Search(Expression<Func<Basket, bool>> predicate)
         {
-            var context = DbSet.AsQueryable();
+            var context = DbSet.AsQueryable().Include("Client");
             return context.Where(predicate).ToList();
         }
 
@@ -49,7 +63,7 @@ namespace Senac.eShop.Infra.Data.Repositories
             int pageNumber,
             int pageSize)
         {
-            var context = DbSet.AsQueryable();
+            var context = DbSet.AsQueryable().Include("Client");
             var result = context.Where(predicate)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize);
