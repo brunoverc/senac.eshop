@@ -18,16 +18,19 @@ namespace Senac.eShop.Application.Services
         protected readonly IBasketRepository _repository;
         protected readonly IMapper _mapper;
         protected readonly IBasketItemRepository _itemRepository;
+        protected readonly IProductRepository _productRepository;
 
         public BasketAppService(IBasketRepository repository,
             IMapper mapper,
             IUnitOfWork unitOfWork,
             IMediator bus,
-            IBasketItemRepository itemRepository) : base(unitOfWork, bus)
+            IBasketItemRepository itemRepository,
+            IProductRepository productRepository) : base(unitOfWork, bus)
         {
             _repository = repository;
             _mapper = mapper;
             _itemRepository = itemRepository;
+            _productRepository = productRepository;
         }
 
         public BasketViewModel AddBasket(BasketViewModel viewModel)
@@ -47,12 +50,12 @@ namespace Senac.eShop.Application.Services
             if(basket != null)
             {
                 //2. Verificar se o item já existe na cesta
-                if(basket.Items.Where(b => b.Id == viewModel.Id).Any())
+                if(basket.Items != null && 
+                    basket.Items.Where(b => b.Id == viewModel.Id).Any())
                 {
                     var item = basket.Items.FirstOrDefault(bi => bi.Id == viewModel.Id);
                     item.SetAmount(item.Amount + viewModel.Amount);
                     item = _itemRepository.Update(item);
-                    Commit();
                 }
                 else
                 {
@@ -61,7 +64,19 @@ namespace Senac.eShop.Application.Services
                     _ = _itemRepository.Add(item);
                 }
 
+                Commit();
+
                 var basketFinal = _repository.GetById(viewModel.BasketId);
+
+                foreach(var item in basketFinal.Items)
+                {
+                    if(item.Product == null)
+                    {
+                        item.SetProduct(_productRepository.
+                            GetById(item.ProductId));
+                    }
+                }
+
                 var items = _mapper.Map<IEnumerable<BasketItemViewModel>>(basketFinal.Items);
                 return items;
             }

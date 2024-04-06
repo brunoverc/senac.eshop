@@ -24,5 +24,15 @@ namespace Senac.eShop.Domain.Entities
         {
             Amount = amount;
         }
+
+        public void SetProduct(Product product)
+        {
+            if(product != null)
+            {
+                ProductId = product.Id;
+            }
+
+            Product = product;
+        }
     }
 }
