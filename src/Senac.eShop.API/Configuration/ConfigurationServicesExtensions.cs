@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Senac.eShop.Infra.Data.Context;
+using Senac.eShop.Infra.Identity.Data;
 
 namespace Senac.eShop.API.Configuration
 {
@@ -11,6 +12,7 @@ namespace Senac.eShop.API.Configuration
             string connectionString = configuration.GetConnectionString("DefaultConnection");
 
             services.AddDbContext<EShopDbContext>(options => options.UseSqlServer(connectionString));
+            services.AddDbContext<IdentityDataContext>(options => options.UseSqlServer(connectionString));
 
             services.AddDistributedMemoryCache();
 

@@ -1,10 +1,13 @@
-﻿using Senac.eShop.Application.Interfaces;
+﻿using Microsoft.AspNetCore.Identity;
+using Senac.eShop.Application.Interfaces;
 using Senac.eShop.Application.Services;
 using Senac.eShop.Domain.Interfaces;
 using Senac.eShop.Domain.Shared.Transaction;
 using Senac.eShop.Infra.Data.Context;
 using Senac.eShop.Infra.Data.Repositories;
 using Senac.eShop.Infra.Data.UoW;
+using Senac.eShop.Infra.Identity.Data;
+using Senac.eShop.Infra.Identity.Services;
 using System.Reflection;
 
 namespace Senac.eShop.API.Configuration
@@ -29,6 +32,14 @@ namespace Senac.eShop.API.Configuration
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<EShopDbContext>();
+            services.AddScoped<IdentityDataContext>();
+
+            services.AddDefaultIdentity<IdentityUser>()
+                .AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores<IdentityDataContext>()
+                .AddDefaultTokenProviders();
+
+            services.AddScoped<IIdentityService, IdentityService>();
 
             services.AddScoped<IAddressRepository, AddressRepository>();
             services.AddScoped<IBasketRepository, BasketRepository>();

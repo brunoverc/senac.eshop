@@ -19,7 +19,36 @@ namespace Senac.eShop.API.Configuration
                         Email = "contato@go.senac.br"
                     }
                 });
+
+                s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = @"Autenticação por cabeçalho de JWT, usando o esquema Bearer.
+                                    Exemplo: Bearer 1235345sfasd",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer"
+                });
+
+                s.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            },
+                            Scheme = "oauth2",
+                            Name = "Bearer",
+                            In = ParameterLocation.Header
+                        }, new List<string>() 
+                    }
+                });
             });
+
+
         }
 
         public static void UseSwaggerConfiguration(this IApplicationBuilder app)

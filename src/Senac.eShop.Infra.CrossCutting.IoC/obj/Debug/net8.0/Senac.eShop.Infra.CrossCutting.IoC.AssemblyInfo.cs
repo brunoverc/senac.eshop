@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Senac.eShop.Infra.CrossCutting.IoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a33ac95c1bdd8bc9bb9ac249a4e2b9cc96e9a283")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63a1aa09823fa9c54f02b81f97604a51c93aa4f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Senac.eShop.Infra.CrossCutting.IoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Senac.eShop.Infra.CrossCutting.IoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

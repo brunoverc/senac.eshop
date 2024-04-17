@@ -123,6 +123,34 @@ namespace Senac.eShop.Infra.Identity.Services
 
             return claims;
         }
+
+        private async Task<UserLoginResponse> SetToken(string email)
+        {
+            //Buscando o usuário pelo e-mail
+            var user = await _userManager.FindByEmailAsync(email);
+            var tokenClaims = await GetClaims(user);
+
+            var expirationDate = DateTime.Now.AddSeconds(_jwtOptions.Expiration);
+
+            //Crio meu objeto de token
+            var jwt = new JwtSecurityToken(
+                issuer: _jwtOptions.Issuer,
+                audience: _jwtOptions.Audience,
+                claims: tokenClaims,
+                notBefore: DateTime.Now,
+                expires: expirationDate,
+                signingCredentials: _jwtOptions.SigningCredentials);
+
+            //Aqui ele efetivamente escreve o Token
+            var token = new JwtSecurityTokenHandler().WriteToken(jwt);
+
+            //Retorno uma resposta de login de usuário
+            return new UserLoginResponse(
+                success: true,
+                token: token,
+                expirationDate: expirationDate);
+
+        }
     }
 
     

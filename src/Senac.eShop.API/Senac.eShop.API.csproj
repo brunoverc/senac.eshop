@@ -36,6 +36,7 @@
     <ProjectReference Include="..\Senac.eShop.Application\Senac.eShop.Application.csproj" />
     <ProjectReference Include="..\Senac.eShop.Domain\Senac.eShop.Domain.csproj" />
     <ProjectReference Include="..\Senac.eShop.Infra.Data\Senac.eShop.Infra.Data.csproj" />
+    <ProjectReference Include="..\Senac.eShop.Infra.Identity\Senac.eShop.Infra.Identity.csproj" />
   </ItemGroup>
 
 </Project>

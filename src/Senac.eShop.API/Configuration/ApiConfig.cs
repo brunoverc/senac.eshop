@@ -15,6 +15,7 @@ namespace Senac.eShop.API.Configuration
                 .AllowAnyHeader()));
 
             services.AddControllers();
+            services.AddAuthentication(configuration); //Essa linha aqui
             services.RegisterServices();
             AddJwtConfiguration(services);
 
