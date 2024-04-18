@@ -786,6 +786,58 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Senac.eShop.API.Controllers.V1.UserController",
+    "Method": "Login",
+    "RelativePath": "api/v1/users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Senac.eShop.Application.DTOs.Request.UserLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Senac.eShop.Application.DTOs.Response.UserLoginResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Senac.eShop.API.Controllers.V1.UserController",
+    "Method": "Register",
+    "RelativePath": "api/v1/users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Senac.eShop.Application.DTOs.Request.UserRegisteredRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Senac.eShop.Application.DTOs.Response.UserRegisteredResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Senac.eShop.API.Controllers.V1.VoucherController",
     "Method": "Get",
     "RelativePath": "api/v1/voucher",

@@ -9,7 +9,7 @@ namespace Senac.eShop.Application.DTOs.Response
 {
     public class UserLoginResponse
     {
-        public bool Sucess { get; private set; }
+        public bool Success { get; private set; }
 
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         public string Token { get; private set; }
@@ -23,7 +23,7 @@ namespace Senac.eShop.Application.DTOs.Response
 
         public UserLoginResponse(bool success = true) : this()
         {
-            Sucess = success;
+            Success = success;
         }
 
         public UserLoginResponse(bool success, string token, DateTime expirationDate) : this(success)

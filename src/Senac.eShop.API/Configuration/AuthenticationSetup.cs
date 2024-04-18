@@ -19,7 +19,7 @@ namespace Senac.eShop.API.Configuration
             {
                 options.Issuer = jwtAppSettingOptions[nameof(JwtOptions.Issuer)];
                 options.Audience = jwtAppSettingOptions[nameof(JwtOptions.Audience)];
-                options.SigningCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha512);
+                options.SigningCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
                 options.Expiration = int.Parse(jwtAppSettingOptions[nameof(JwtOptions.Expiration)]);
             });
 
