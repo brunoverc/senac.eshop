@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj": {}
+    "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/Senac.eShop.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj": {
+    "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/Senac.eShop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj",
+        "projectUniqueName": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/Senac.eShop.Core.csproj",
         "projectName": "Senac.eShop.Core",
-        "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj",
-        "packagesPath": "C:\\Users\\Instrutor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\obj\\",
+        "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/Senac.eShop.Core.csproj",
+        "packagesPath": "/Users/brunovercosa/.nuget/packages/",
+        "outputPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Instrutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/brunovercosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +33,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

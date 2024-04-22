@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Senac.eShop.Web.props" />
+</Project>
