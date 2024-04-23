@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r106YcIz0jMgYIrE837pCusj8/4CoROZkfowpNf1C95tQR6b8d2RW+UqVDTWrwlF7VlA81GrEtrSupDRtefCXA==",
+  "dgSpecHash": "NMe/ydbru5XvktUSxQKDDsZbrahjjNcy9OkHYokGnJ7DRiuUadPNNbLVOdi65RoN6Vu5zNG2/tAUwcNU6H1teA==",
   "success": true,
-  "projectFilePath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/Senac.eShop.Core.csproj",
+  "projectFilePath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
