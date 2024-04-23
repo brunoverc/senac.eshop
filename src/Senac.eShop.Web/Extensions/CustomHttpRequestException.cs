@@ -1,6 +1,19 @@
-﻿namespace Senac.eShop.Web.Extensions
+﻿using System.Net;
+
+namespace Senac.eShop.Web.Extensions
 {
-    public class CustomHttpRequestException
+    public class CustomHttpRequestException : Exception
     {
+        public HttpStatusCode StatusCode;
+
+        public CustomHttpRequestException() { }
+
+        public CustomHttpRequestException(string message, Exception innerException)
+            : base(message, innerException) { }
+
+        public CustomHttpRequestException(HttpStatusCode statusCode)
+        {
+            StatusCode = statusCode;
+        }
     }
 }

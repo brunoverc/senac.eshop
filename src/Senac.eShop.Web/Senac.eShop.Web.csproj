@@ -10,4 +10,11 @@
       <ProjectReference Include="..\Senac.eShop.Core\Senac.eShop.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.3" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.3" />
+      <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="8.0.3" />
+      <PackageReference Include="Refit" Version="7.0.0" />
+    </ItemGroup>
+
 </Project>

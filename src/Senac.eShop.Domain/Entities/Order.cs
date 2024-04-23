@@ -16,7 +16,7 @@ namespace Senac.eShop.Domain.Entities
             ClientId = client.Id;
             Discount = discount;
             AddressId = address.Id;
-            Status = OrderStatus.Criado;
+            Status = OrderStatus.Em_aprovação;
             Client = client;
             Address = address;
             PaymentMethod = paymentMethod;
@@ -137,16 +137,16 @@ namespace Senac.eShop.Domain.Entities
         }
 
         public void AuthorizedOrder() =>
-            Status = OrderStatus.Autorizado;
+            Status = OrderStatus.Aprovado;
 
         public void CanceledOrder() =>
             Status = OrderStatus.Cancelado;
 
         public void FinalizedOrder() =>
-            Status = OrderStatus.Pago;
+            Status = OrderStatus.Aprovado;
 
         public void ProcessedOrder() =>
-            Status = OrderStatus.EmProcessamento;
+            Status = OrderStatus.Em_aprovação;
 
         public void DeniedOrder() =>
             Status = OrderStatus.Recusado;

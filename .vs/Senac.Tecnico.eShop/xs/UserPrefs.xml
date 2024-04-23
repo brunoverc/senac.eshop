@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{70B48CE3-785B-4CF5-BE79-774C67C211E5}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Senac.eShop.Web/Extensions/SummaryViewComponent.cs">
+    <Files>
+      <File FileName="src/Senac.eShop.Web/Extensions/ExceptionMiddleware.cs" Line="25" Column="14" />
+      <File FileName="src/Senac.eShop.Web/Extensions/SummaryViewComponent.cs" Line="9" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Senac.Tecnico.eShop" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="1 - Presentation" expanded="True">
+                <Node name="Senac.eShop.Web" expanded="True">
+                  <Node name="Extensions" expanded="True">
+                    <Node name="SummaryViewComponent.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.src.1_220-_220Presentation.Senac.eShop.Web PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>

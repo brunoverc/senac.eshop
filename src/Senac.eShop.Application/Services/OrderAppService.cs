@@ -161,7 +161,7 @@ namespace Senac.eShop.Application.Services
             var order = _repository.GetById(orderId);
             switch (newStatus)
             {
-                case OrderStatus.Autorizado:
+                case OrderStatus.Em_aprovação:
                     order.AuthorizedOrder();
                     break;
                 case OrderStatus.Cancelado:
@@ -170,7 +170,7 @@ namespace Senac.eShop.Application.Services
                 case OrderStatus.Entregue:
                     order.DeliveredOrder();
                     break;
-                case OrderStatus.EmProcessamento:
+                case OrderStatus.Aprovado:
                     order.ProcessedOrder();
                     break;
             }
