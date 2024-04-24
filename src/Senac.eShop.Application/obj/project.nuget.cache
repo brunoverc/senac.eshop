@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "HS4EeJ0PkQA8Xh9G/r8dgeOm4ZuA3zXjos/QWTen0GQXAdm5S8igcRL2yTW1aWvbDZwvptH38HRrBqJHq+xWew==",
+  "dgSpecHash": "Ogvek5GX8wvaataqgXd3OjKpw+/QgfdJzr+/hZfcYK5mEU0F/st8dH6XGFlGht1qn0Ql5s6j6I+3fRM6BM7ANg==",
   "success": true,
-  "projectFilePath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Application/Senac.eShop.Application.csproj",
+  "projectFilePath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Senac.eShop.Application.csproj",
   "expectedPackageFiles": [
-    "/Users/brunovercosa/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
-    "/Users/brunovercosa/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
-    "/Users/brunovercosa/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/Users/brunovercosa/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "/Users/brunovercosa/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "/Users/brunovercosa/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "/Users/brunovercosa/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Instrutor\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Instrutor\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Instrutor\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Instrutor\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Instrutor\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
