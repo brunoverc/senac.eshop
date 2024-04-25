@@ -5,7 +5,6 @@ namespace Senac.eShop.API.Configuration
 {
     public static class ApiConfig
     {
-
         public static void ConfigureStartupConfiguration(this IServiceCollection services,
             IConfiguration configuration)
         {

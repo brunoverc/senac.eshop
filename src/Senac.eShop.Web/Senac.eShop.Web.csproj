@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Senac.eShop.API\Senac.eShop.API.csproj" />
       <ProjectReference Include="..\Senac.eShop.Core\Senac.eShop.Core.csproj" />
     </ItemGroup>
 

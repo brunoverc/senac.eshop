@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "toiXyUSqY1e0PLwys0tCa5Dnm5tOz/+pQ2l/6zAUg8E=",
+  "Hash": "VltiTOrmb8W8hzsW6pQPaY9xhkaW+qroV61npe1/HqU=",
   "Source": "Senac.eShop.Web",
   "BasePath": "_content/Senac.eShop.Web",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.API\\Senac.eShop.API.csproj",
+      "Version": 2,
+      "Source": "Senac.eShop.API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "Senac.eShop.Web\\wwwroot",
