@@ -9,6 +9,11 @@ namespace Senac.eShop.Web.Models
         public Guid ClientId { get; set; }
         public ClientViewModel? Client { get; set; }
         public List<BasketItemViewModel> Items { get; set; }
+
+        public string VoucherCode { get; set; }
+        public bool UsedVoucher { get; set; }
+        public decimal TotalValue { get; set; }
+        public decimal Discount { get; set; }
     }
 
     public class BasketItemViewModel
@@ -21,5 +26,8 @@ namespace Senac.eShop.Web.Models
         public Guid BasketId { get; set; }
         [Range(1, int.MaxValue, ErrorMessage = "A quantidade precisa ser maior que 0.")]
         public int Amount { get; set; }
+
+        
+
     }
 }
