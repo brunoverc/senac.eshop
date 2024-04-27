@@ -18,9 +18,4 @@
       <PackageReference Include="Refit" Version="7.0.0" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Views\Identity\" />
-      <Folder Include="Views\Order\" />
-    </ItemGroup>
-
 </Project>

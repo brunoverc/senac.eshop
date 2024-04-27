@@ -28,6 +28,9 @@ namespace Senac.eShop.Web.Models
         [DisplayName("Código da venda")]
         public string Code { get; set; }
         public List<OrderItemViewModel> OrderItems { get; set; }
+
+        [DisplayName("Data da venda")]
+        public DateTime Date { get; set; } = DateTime.Now; //Aqui
     }
 
     public class OrderItemViewModel

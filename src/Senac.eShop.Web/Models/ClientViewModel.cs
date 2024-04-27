@@ -28,7 +28,8 @@ namespace Senac.eShop.Web.Models
         [DisplayName("Data de Nascimento")]
         public DateTime Birth { get; set; }
 
-        public AddressViewModel? AddressClient { get; set; }
+        public AddressViewModel? AddressClient { get; set; } = new AddressViewModel();
+
     }
 
     public class UserLogin
@@ -65,6 +66,8 @@ namespace Senac.eShop.Web.Models
         [Compare(nameof(Password), ErrorMessage = "As senhas devem ser iguais.")]
         [DisplayName("Confirme sua Senha")]
         public string PasswordConfirm { get; set; }
+
+        public ClientViewModel Client { get; set; } = new ClientViewModel();
     }
 
     public class UserRegisteredResponse

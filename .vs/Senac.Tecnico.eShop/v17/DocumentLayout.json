@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70B48CE3-785B-4CF5-BE79-774C67C211E5}|src\\Senac.eShop.Web\\Senac.eShop.Web.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.web\\views\\catalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70B48CE3-785B-4CF5-BE79-774C67C211E5}|src\\Senac.eShop.Web\\Senac.eShop.Web.csproj|solutionrelative:src\\senac.eshop.web\\views\\catalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FB166D63-B2F0-48BA-94C3-0FEA2C107F35}|src\\Senac.eShop.Core\\Senac.eShop.Core.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.core\\validation\\cardexpirationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB166D63-B2F0-48BA-94C3-0FEA2C107F35}|src\\Senac.eShop.Core\\Senac.eShop.Core.csproj|solutionrelative:src\\senac.eshop.core\\validation\\cardexpirationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70B48CE3-785B-4CF5-BE79-774C67C211E5}|src\\Senac.eShop.Web\\Senac.eShop.Web.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.web\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70B48CE3-785B-4CF5-BE79-774C67C211E5}|src\\Senac.eShop.Web\\Senac.eShop.Web.csproj|solutionrelative:src\\senac.eshop.web\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70B48CE3-785B-4CF5-BE79-774C67C211E5}|src\\Senac.eShop.Web\\Senac.eShop.Web.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.web\\models\\basketviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70B48CE3-785B-4CF5-BE79-774C67C211E5}|src\\Senac.eShop.Web\\Senac.eShop.Web.csproj|solutionrelative:src\\senac.eshop.web\\models\\basketviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70B48CE3-785B-4CF5-BE79-774C67C211E5}|src\\Senac.eShop.Web\\Senac.eShop.Web.csproj|c:\\users\\instrutor\\documents\\github\\senac.eshop\\src\\senac.eshop.web\\models\\ordertransactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70B48CE3-785B-4CF5-BE79-774C67C211E5}|src\\Senac.eShop.Web\\Senac.eShop.Web.csproj|solutionrelative:src\\senac.eshop.web\\models\\ordertransactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\Views\\Catalog\\Index.cshtml",
-              "RelativeDocumentMoniker": "src\\Senac.eShop.Web\\Views\\Catalog\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\Views\\Catalog\\Index.cshtml",
-              "RelativeToolTip": "src\\Senac.eShop.Web\\Views\\Catalog\\Index.cshtml",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAACQAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-26T00:27:44.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BasketViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\Models\\BasketViewModel.cs",
-              "RelativeDocumentMoniker": "src\\Senac.eShop.Web\\Models\\BasketViewModel.cs",
-              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\Models\\BasketViewModel.cs",
-              "RelativeToolTip": "src\\Senac.eShop.Web\\Models\\BasketViewModel.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA5wAoAAAAuAAAA",
+              "Title": "CardExpirationAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Validation\\CardExpirationAttribute.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Core\\Validation\\CardExpirationAttribute.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Validation\\CardExpirationAttribute.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Core\\Validation\\CardExpirationAttribute.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T23:08:50.553Z",
+              "WhenOpened": "2024-04-27T00:24:48.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\Views\\Basket\\Index.cshtml",
-              "RelativeDocumentMoniker": "src\\Senac.eShop.Web\\Views\\Basket\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\Views\\Basket\\Index.cshtml",
-              "RelativeToolTip": "src\\Senac.eShop.Web\\Views\\Basket\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMoAAAByAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-25T22:49:30.598Z",
+              "Title": "OrderTransactionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\Models\\OrderTransactionViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Senac.eShop.Web\\Models\\OrderTransactionViewModel.cs",
+              "ToolTip": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\Models\\OrderTransactionViewModel.cs",
+              "RelativeToolTip": "src\\Senac.eShop.Web\\Models\\OrderTransactionViewModel.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA4wCUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T00:05:57.945Z",
               "EditorCaption": ""
             }
           ]
