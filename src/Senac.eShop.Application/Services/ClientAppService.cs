@@ -83,6 +83,26 @@ namespace Senac.eShop.Application.Services
             var clientViewModel = _mapper.Map<ClientViewModel>(client);
             return clientViewModel;
         }
+
+        /// <summary>
+        /// Recebe um Address e um client, cria o Address no banco e salva essa informação em client
+        /// </summary>
+        /// <param name="clientId">Client Id</param>
+        /// <param name="addressViewModel">Objeto Address ViewModel</param>
+        /// <returns></returns>
+        public ClientViewModel SetAddAddressClient(Guid clientId, AddressViewModel addressViewModel)
+        {
+            addressViewModel = _addressAppService.Add(addressViewModel);
+            Commit();
+
+            var client = _repository.GetById(clientId);
+            client.SetAddress(_mapper.Map<Address>(addressViewModel));
+
+            client = _repository.Update(client);
+            Commit();
+
+            return _mapper.Map<ClientViewModel>(client);
+        }
     }
 
 }

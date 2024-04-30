@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ElZ19ZKYmBFqpuomg8gfdyKfz7HmD+CA5y0mPVACnKTK/Kbmt4mu2RDo5e6eIKyNzpfNNTIHWgXRYkIPETqSxQ==",
+  "dgSpecHash": "XnpY+9PP/eNVJLYR2OyDJxa3oltJItScN8mVC5tYoWn1MDS1Ld0PcQBhOlshmYdrxMeBHazunFXrvJJDe6ag5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\Senac.eShop.Web.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\Instrutor\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Instrutor\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Instrutor\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\Instrutor\\.nuget\\packages\\linqkit.core\\1.2.5\\linqkit.core.1.2.5.nupkg.sha512",
+    "C:\\Users\\Instrutor\\.nuget\\packages\\linqkit.microsoft.entityframeworkcore\\8.1.5\\linqkit.microsoft.entityframeworkcore.8.1.5.nupkg.sha512",
     "C:\\Users\\Instrutor\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Instrutor\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Instrutor\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

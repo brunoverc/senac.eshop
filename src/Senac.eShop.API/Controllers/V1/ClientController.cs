@@ -9,10 +9,13 @@ namespace Senac.eShop.API.Controllers.V1
     public class ClientController : Controller
     {
         private readonly IClientAppService _clientAppService;
+        private readonly IAddressAppService _addressAppService;
 
-        public ClientController(IClientAppService clientAppService)
+        public ClientController(IClientAppService clientAppService, 
+            IAddressAppService addressAppService)
         {
             _clientAppService = clientAppService;
+            _addressAppService = addressAppService;
         }
 
         [HttpGet]
@@ -47,6 +50,14 @@ namespace Senac.eShop.API.Controllers.V1
         public ActionResult Delete(Guid id)
         {
             _clientAppService.Remove(id);
+            return Ok();
+        }
+
+        [HttpPost("set-address-client/clientId")]
+        public ActionResult<ClientViewModel> SetNewAddressClient(Guid clientId, 
+            [FromBody]AddressViewModel address)
+        {
+            _clientAppService.SetAddAddressClient(clientId, address);
             return Ok();
         }
     }

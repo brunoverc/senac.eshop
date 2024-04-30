@@ -15,5 +15,13 @@ namespace Senac.eShop.Application.Interfaces
         ClientViewModel Update(ClientViewModel viewModel);
         void Remove(Guid id);
         void Remove(Expression<Func<Client, bool>> expression);
+
+        /// <summary>
+        /// Recebe um Address e um client, cria o Address no banco e salva essa informação em client
+        /// </summary>
+        /// <param name="clientId">Client Id</param>
+        /// <param name="addressViewModel">Objeto Address ViewModel</param>
+        /// <returns></returns>
+        ClientViewModel SetAddAddressClient(Guid clientId, AddressViewModel addressViewModel);
     }
 }

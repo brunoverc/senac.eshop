@@ -45,7 +45,7 @@
                                     <div class="col-md-6">
                                         <figure class="itemside  mb-3">
                                             <div class="aside">
-                                                <img src="~/images/product/@item.Product.Image"
+                                                <img src="~/images/products/@item.Product.Image"
                                                      alt="@item.Product.Name"
                                                      class="border img-xs">
                                             </div>
@@ -54,7 +54,8 @@
                                                     <b>@item.Product.Name</b>
                                                 </p>
                                                 <span>
-                                                    @this.UnidadesPorProdutoValorTotal(item.Amount, item.Product.Price)
+                                                    @this.UnidadesPorProdutoValorTotal(item.Amount, 
+                                                        item.Product.Price)
                                                 </span>
                                             </figcaption>
                                         </figure>
@@ -65,10 +66,10 @@
                         </div>
                     </article>
 
-                    <partial name="_ResumoFinanceiro" model="Model" />
+                    <partial name="_FinancialSummary" model="Model" />
 
                     <div class="card-body border-top">
-                        <partial name="_Endereco" model="Model" />
+                        <partial name="_Address" model="Model" />
                     </div>
                     <div class="card-body border-top">
                         @{
@@ -110,5 +111,4 @@
             BuscaCep();
         });
     </script>
-
 }

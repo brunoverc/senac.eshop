@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LinqKit;
+using Microsoft.AspNetCore.Mvc;
 using Senac.eShop.Application.Interfaces;
 using Senac.eShop.Application.ViewModel;
+using Senac.eShop.Domain.Entities;
+using System.Linq.Expressions;
 
 namespace Senac.eShop.API.Controllers.V1
 {
@@ -19,6 +22,21 @@ namespace Senac.eShop.API.Controllers.V1
         public ActionResult<IEnumerable<ProductViewModel>> Get()
         {
             var result = _productAppService.Search(a => true);
+
+            return Ok(result);
+        }
+
+        [HttpGet("{pageSize}/{page}/{nameProduct}")]
+        public ActionResult<IEnumerable<ProductViewModel>> Get(int pageSize, 
+            int pageIndex, string nameProduct = null)
+        {
+            Expression<Func<Product, bool>> filter = p => true;
+
+            if (nameProduct != null)
+            {
+                filter = filter.And(p => p.Name.Contains(nameProduct));
+            }
+            var result = _productAppService.Search(filter, pageIndex, pageSize);
 
             return Ok(result);
         }
