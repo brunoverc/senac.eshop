@@ -13,7 +13,8 @@ namespace Senac.eShop.Web.Models
         public string VoucherCode { get; set; }
         public bool VoucherUsed { get; set; }
 
-        public List<BasketItemViewModel> Itens { get; set; } = new List<BasketItemViewModel>();
+        //TODO: Alterar aqui
+        public List<OrderItemViewModel> Itens { get; set; } = new List<OrderItemViewModel>();
 
         #endregion
 

@@ -5,11 +5,6 @@ using Senac.eShop.Application.ViewModel;
 using Senac.eShop.Domain.Entities;
 using Senac.eShop.Domain.Interfaces;
 using Senac.eShop.Domain.Shared.Transaction;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Senac.eShop.Application.Services
 {
@@ -47,10 +42,10 @@ namespace Senac.eShop.Application.Services
         {
             //1. Verificar se a cesta existe.
             var basket = _repository.GetById(viewModel.BasketId);
-            if(basket != null)
+            if (basket != null)
             {
                 //2. Verificar se o item já existe na cesta
-                if(basket.Items != null && 
+                if (basket.Items != null &&
                     basket.Items.Where(b => b.Id == viewModel.Id).Any())
                 {
                     var item = basket.Items.FirstOrDefault(bi => bi.Id == viewModel.Id);
@@ -68,9 +63,9 @@ namespace Senac.eShop.Application.Services
 
                 var basketFinal = _repository.GetById(viewModel.BasketId);
 
-                foreach(var item in basketFinal.Items)
+                foreach (var item in basketFinal.Items)
                 {
-                    if(item.Product == null)
+                    if (item.Product == null)
                     {
                         item.SetProduct(_productRepository.
                             GetById(item.ProductId));
@@ -100,6 +95,22 @@ namespace Senac.eShop.Application.Services
             return viewModel;
         }
 
+        //TODO: Novo
+        public IEnumerable<BasketItemViewModel> RemoveItemBasket(Guid basketId, Guid productId)
+        {
+            var item = _itemRepository.Search(bi => bi.BasketId == basketId &&
+            bi.ProductId == productId);
+
+            if (item != null)
+            {
+                return RemoveItemBasket(item.FirstOrDefault().Id);
+            }
+            else
+            {
+                throw new Exception("Item não encontrado");
+            }
+        }
+
         public IEnumerable<BasketItemViewModel> RemoveItemBasket(Guid idBasketItem)
         {
             _itemRepository.Remove(idBasketItem);
@@ -110,9 +121,10 @@ namespace Senac.eShop.Application.Services
             return items;
         }
 
-        public void UpdateItemQuantity(Guid idBasketItem, int quantity)
+        //TODO: Alterar aqui
+        public void UpdateItemQuantity(BasketItemViewModel item, int quantity)
         {
-            var domain = _itemRepository.GetById(idBasketItem);
+            var domain = _mapper.Map<BasketItem>(item);
             domain.SetAmount(quantity);
             _ = _itemRepository.Update(domain);
             Commit();

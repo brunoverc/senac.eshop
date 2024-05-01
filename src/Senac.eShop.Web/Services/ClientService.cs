@@ -19,7 +19,7 @@ namespace Senac.eShop.Web.Services
         public ClienteService(HttpClient httpClient, IOptions<AppSettings> settings)
         {
             _httpClient = httpClient;
-            _httpClient.BaseAddress = new Uri(settings.Value.ClientUrl);
+            _httpClient.BaseAddress = new Uri(settings.Value.Url);
         }
 
         public async Task<AddressViewModel> GetAddress()

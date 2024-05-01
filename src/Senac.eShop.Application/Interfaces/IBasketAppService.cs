@@ -13,9 +13,13 @@ namespace Senac.eShop.Application.Interfaces
         //Remove um item da cesta e retorna todos os itens
         IEnumerable<BasketItemViewModel> RemoveItemBasket(Guid idBasketItem);
         //Altera a quantidade de itens na cesta
-        void UpdateItemQuantity(Guid idBasketItem, int quantity);
+        //TODO: Alterar aqui
+        void UpdateItemQuantity(BasketItemViewModel item, int quantity);
         //Limpa a cesta
         void ClearBasket(Guid basketId);
+
+        //TODO: Novo
+        IEnumerable<BasketItemViewModel> RemoveItemBasket(Guid basketId, Guid productId);
 
     }
 }

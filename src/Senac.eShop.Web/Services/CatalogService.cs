@@ -16,7 +16,7 @@ namespace Senac.eShop.Web.Services
         public CatalogService(HttpClient httpClient,
             IOptions<AppSettings> settings)
         {
-            httpClient.BaseAddress = new Uri(settings.Value.CatalogUrl);
+            httpClient.BaseAddress = new Uri(settings.Value.Url);
 
             _httpClient = httpClient;
         }

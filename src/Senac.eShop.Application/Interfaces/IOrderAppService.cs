@@ -20,5 +20,14 @@ namespace Senac.eShop.Application.Interfaces
         OrderViewModel SetAddressDelivery(Guid orderId, AddressViewModel addresViewModel);
         //Aplica um voucher e recalcula o valor da venda
         OrderViewModel SetApplyVoucher(Guid orderId, string code);
+
+        //TODO: Novo
+        OrderViewModel GetById(Guid orderId);
+
+        //TODO: Novo
+        OrderViewModel GetLastOrderByClient(Guid clientId);
+
+        //TODO: Novo
+        IEnumerable<OrderViewModel> GetOrdersByClient(Guid clientId);
     }
 }

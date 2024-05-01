@@ -862,3 +862,5 @@ C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\ne
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\Senac.eShop.Domain.Shared.pdb
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\Senac.eShop.Infra.Data.pdb
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\Senac.eShop.Infra.Identity.pdb
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\LinqKit.Core.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\LinqKit.Microsoft.EntityFrameworkCore.dll

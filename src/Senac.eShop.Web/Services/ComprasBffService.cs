@@ -1,154 +1,158 @@
 ﻿using Microsoft.Extensions.Options;
 using Senac.eShop.Core.Communication;
 using Senac.eShop.Web.Extensions;
+using Senac.eShop.Web.Models;
 
 namespace Senac.eShop.Web.Services
 {
-    public interface IComprasBffService
+    public interface IOrderBffService
     {
-    //    // Carrinho
-    //    Task<CarrinhoViewModel> ObterCarrinho();
-    //    Task<int> ObterQuantidadeCarrinho();
-    //    Task<ResponseResult> AdicionarItemCarrinho(ItemCarrinhoViewModel carrinho);
-    //    Task<ResponseResult> AtualizarItemCarrinho(Guid produtoId, ItemCarrinhoViewModel carrinho);
-    //    Task<ResponseResult> RemoverItemCarrinho(Guid produtoId);
-    //    Task<ResponseResult> AplicarVoucherCarrinho(string voucher);
+        // Carrinho
+        Task<OrderViewModel> GetBasket(Guid basketId);
+        Task<int> GetAmountBasket(Guid basketId);
+        Task<ResponseResult> AddBasketItem(BasketItemViewModel item);
+        Task<ResponseResult> UpdateBasketItem(BasketItemViewModel item, int quantity);
+        Task<ResponseResult> DeleteBasketItem(Guid basketId, Guid productId);
+        Task<ResponseResult> ApplyVoucherCode(Guid orderId, string voucher);
 
-    //    // Pedido
-    //    Task<ResponseResult> FinalizarPedido(PedidoTransacaoViewModel pedidoTransacao);
-    //    Task<PedidoViewModel> ObterUltimoPedido();
-    //    Task<IEnumerable<PedidoViewModel>> ObterListaPorClienteId();
-    //    PedidoTransacaoViewModel MapearParaPedido(CarrinhoViewModel carrinho, EnderecoViewModel endereco);
-    //}
+        // Pedido
+        Task<ResponseResult> CreateOrder(OrderTransactionViewModel orderTransaction);
+        Task<OrderViewModel> GetLastOrderClient(Guid clientId);
+        Task<IEnumerable<OrderViewModel>> GetListOrdersByClient(Guid clientId);
+        OrderTransactionViewModel MapToOrder(OrderViewModel order, AddressViewModel address);
+    }
 
-    //public class ComprasBffService : Service, IComprasBffService
-    //{
-    //    private readonly HttpClient _httpClient;
+    public class OrderBffService : Service, IOrderBffService
+    {
+        private readonly HttpClient _httpClient;
 
-    //    public ComprasBffService(HttpClient httpClient, IOptions<AppSettings> settings)
-    //    {
-    //        _httpClient = httpClient;
-    //        _httpClient.BaseAddress = new Uri(settings.Value.ComprasBffUrl);
-    //    }
+        public OrderBffService(HttpClient httpClient, IOptions<AppSettings> settings)
+        {
+            _httpClient = httpClient;
+            _httpClient.BaseAddress = new Uri(settings.Value.Url);
+        }
 
-    //    #region Carrinho
+        #region Carrinho
 
-    //    public async Task<CarrinhoViewModel> ObterCarrinho()
-    //    {
-    //        var response = await _httpClient.GetAsync("/compras/carrinho/");
+        public async Task<OrderViewModel> GetBasket(Guid basketId)
+        {
+            
+            var response = await _httpClient.GetAsync($"/basket/{basketId}");
 
-    //        TratarErrosResponse(response);
+            HandleErrosResponse(response);
 
-    //        return await DeserializarObjetoResponse<CarrinhoViewModel>(response);
-    //    }
-    //    public async Task<int> ObterQuantidadeCarrinho()
-    //    {
-    //        var response = await _httpClient.GetAsync("/compras/carrinho-quantidade/");
+            return await DeserializeObjectResponse<OrderViewModel>(response);
+        }
+        public async Task<int> GetAmountBasket(Guid basketId)
+        {
+            var response = await _httpClient.GetAsync($"/basket/amount-items/{basketId}");
 
-    //        TratarErrosResponse(response);
+            HandleErrosResponse(response);
 
-    //        return await DeserializarObjetoResponse<int>(response);
-    //    }
-    //    public async Task<ResponseResult> AdicionarItemCarrinho(ItemCarrinhoViewModel carrinho)
-    //    {
-    //        var itemContent = ObterConteudo(carrinho);
+            return await DeserializeObjectResponse<int>(response);
+        }
+        public async Task<ResponseResult> AddBasketItem(BasketItemViewModel item)
+        {
+            var itemContent = GetContent(item);
 
-    //        var response = await _httpClient.PostAsync("/compras/carrinho/items/", itemContent);
+            var response = await _httpClient.PostAsync($"/basket/add-item", 
+                itemContent);
 
-    //        if (!TratarErrosResponse(response)) return await DeserializarObjetoResponse<ResponseResult>(response);
+            if (!HandleErrosResponse(response)) 
+                return await DeserializeObjectResponse<ResponseResult>(response);
 
-    //        return RetornoOk();
-    //    }
-    //    public async Task<ResponseResult> AtualizarItemCarrinho(Guid produtoId, ItemCarrinhoViewModel item)
-    //    {
-    //        var itemContent = ObterConteudo(item);
+            return ReturnOk();
+        }
+        public async Task<ResponseResult> UpdateBasketItem(BasketItemViewModel item, int quantity)
+        {
+            var itemContent = GetContent(item);
 
-    //        var response = await _httpClient.PutAsync($"/compras/carrinho/items/{produtoId}", itemContent);
+            var response = await _httpClient.PutAsync($"/basket/update-item/items/{quantity}", itemContent);
 
-    //        if (!TratarErrosResponse(response)) return await DeserializarObjetoResponse<ResponseResult>(response);
+            if (!HandleErrosResponse(response)) return await DeserializeObjectResponse<ResponseResult>(response);
 
-    //        return RetornoOk();
-    //    }
-    //    public async Task<ResponseResult> RemoverItemCarrinho(Guid produtoId)
-    //    {
-    //        var response = await _httpClient.DeleteAsync($"/compras/carrinho/items/{produtoId}");
+            return ReturnOk();
+        }
+        public async Task<ResponseResult> DeleteBasketItem(Guid basketId, Guid productId)
+        {
+            var response = await _httpClient.DeleteAsync($"/basket/remove-item/{basketId}/{productId}");
 
-    //        if (!TratarErrosResponse(response)) return await DeserializarObjetoResponse<ResponseResult>(response);
+            if (!HandleErrosResponse(response)) return await DeserializeObjectResponse<ResponseResult>(response);
 
-    //        return RetornoOk();
-    //    }
-    //    public async Task<ResponseResult> AplicarVoucherCarrinho(string voucher)
-    //    {
-    //        var itemContent = ObterConteudo(voucher);
+            return ReturnOk();
+        }
+        public async Task<ResponseResult> ApplyVoucherCode(Guid orderId, string voucher)
+        {
+            var itemContent = GetContent(voucher);
 
-    //        var response = await _httpClient.PostAsync("/compras/carrinho/aplicar-voucher/", itemContent);
+            var response = await _httpClient.PostAsync($"/order/apply-voucher/{orderId}", itemContent);
 
-    //        if (!TratarErrosResponse(response)) return await DeserializarObjetoResponse<ResponseResult>(response);
+            if (!HandleErrosResponse(response)) return await DeserializeObjectResponse<ResponseResult>(response);
 
-    //        return RetornoOk();
-    //    }
+            return ReturnOk();
+        }
 
-    //    #endregion
+        #endregion
 
-    //    #region Pedido
+        #region Pedido
 
-    //    public async Task<ResponseResult> FinalizarPedido(PedidoTransacaoViewModel pedidoTransacao)
-    //    {
-    //        var pedidoContent = ObterConteudo(pedidoTransacao);
+        public async Task<ResponseResult> CreateOrder(OrderTransactionViewModel orderTransaction)
+        {
+            var orderContent = GetContent(orderTransaction);
 
-    //        var response = await _httpClient.PostAsync("/compras/pedido/", pedidoContent);
+            var response = await _httpClient.PostAsync("/order/create-new-order", orderContent);
 
-    //        if (!TratarErrosResponse(response)) return await DeserializarObjetoResponse<ResponseResult>(response);
+            if (!HandleErrosResponse(response)) return await DeserializeObjectResponse<ResponseResult>(response);
 
-    //        return RetornoOk();
-    //    }
+            return ReturnOk();
+        }
 
-    //    public async Task<PedidoViewModel> ObterUltimoPedido()
-    //    {
-    //        var response = await _httpClient.GetAsync("/compras/pedido/ultimo/");
+        public async Task<OrderViewModel> GetLastOrderClient(Guid clientId)
+        {
+            var response = await _httpClient.GetAsync($"/order/last-order-client/{clientId}");
 
-    //        TratarErrosResponse(response);
+            HandleErrosResponse(response);
 
-    //        return await DeserializarObjetoResponse<PedidoViewModel>(response);
-    //    }
+            return await DeserializeObjectResponse<OrderViewModel>(response);
+        }
 
-    //    public async Task<IEnumerable<PedidoViewModel>> ObterListaPorClienteId()
-    //    {
-    //        var response = await _httpClient.GetAsync("/compras/pedido/lista-cliente/");
+        public async Task<IEnumerable<OrderViewModel>> GetListOrdersByClient(Guid clientId)
+        {
+            var response = await _httpClient.GetAsync($"/order/list-orders/{clientId}");
 
-    //        TratarErrosResponse(response);
+            HandleErrosResponse(response);
 
-    //        return await DeserializarObjetoResponse<IEnumerable<PedidoViewModel>>(response);
-    //    }
+            return await DeserializeObjectResponse<IEnumerable<OrderViewModel>>(response);
+        }
 
-    //    public PedidoTransacaoViewModel MapearParaPedido(CarrinhoViewModel carrinho, EnderecoViewModel endereco)
-    //    {
-    //        var pedido = new PedidoTransacaoViewModel
-    //        {
-    //            ValorTotal = carrinho.ValorTotal,
-    //            Itens = carrinho.Itens,
-    //            Desconto = carrinho.Desconto,
-    //            VoucherUtilizado = carrinho.VoucherUtilizado,
-    //            VoucherCodigo = carrinho.Voucher?.Codigo
-    //        };
+        public OrderTransactionViewModel MapToOrder(OrderViewModel carrinho, AddressViewModel endereco)
+        {
+            var order = new OrderTransactionViewModel
+            {
+                TotalValue = carrinho.TotalValue,
+                Itens = carrinho.OrderItems,
+                Discount = carrinho.DiscountValue,
+                VoucherUsed = carrinho.Voucher != null,
+                VoucherCode = carrinho.Voucher?.Code
+            };
 
-    //        if (endereco != null)
-    //        {
-    //            pedido.Endereco = new EnderecoViewModel
-    //            {
-    //                Logradouro = endereco.Logradouro,
-    //                Numero = endereco.Numero,
-    //                Bairro = endereco.Bairro,
-    //                Cep = endereco.Cep,
-    //                Complemento = endereco.Complemento,
-    //                Cidade = endereco.Cidade,
-    //                Estado = endereco.Estado
-    //            };
-    //        }
+            if (endereco != null)
+            {
+                order.Address = new AddressViewModel
+                {
+                    Street = endereco.Street,
+                    Number = endereco.Number,
+                    Neighborhood = endereco.Neighborhood,
+                    PostalCode = endereco.PostalCode,
+                    Complement = endereco.Complement,
+                    City = endereco.City,
+                    State = endereco.State
+                };
+            }
 
-    //        return pedido;
-    //    }
+            return order;
+        }
 
-    //    #endregion
+        #endregion
     }
 }

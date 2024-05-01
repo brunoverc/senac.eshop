@@ -517,3 +517,5 @@ C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.API\obj\Debug\ne
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.API\obj\Debug\net8.0\Senac.eShop.API.pdb
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.API\obj\Debug\net8.0\Senac.eShop.API.genruntimeconfig.cache
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.API\obj\Debug\net8.0\ref\Senac.eShop.API.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.API\bin\Debug\net8.0\LinqKit.Core.dll
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.API\bin\Debug\net8.0\LinqKit.Microsoft.EntityFrameworkCore.dll

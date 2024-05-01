@@ -24,10 +24,9 @@ namespace Senac.eShop.API.Controllers.V1
             return Ok(result);
         }
 
-        [HttpPost("insert-new-item")]
+        [HttpPost("insert-new-item/{orderId}")]
         public ActionResult<IEnumerable<OrderItemViewModel>> InsertNewItem([FromBody] 
-        OrderItemViewModel model,
-            Guid orderId)
+        OrderItemViewModel model, Guid orderId)
         {
             var result = _orderAppService.SetInsertNewItem(model, orderId);
             return Ok(result);
@@ -63,11 +62,39 @@ namespace Senac.eShop.API.Controllers.V1
             return result;
         }
 
-        [HttpPut("apply-voucher/{orderId}/{code}")]
-        public ActionResult<OrderViewModel> SetApplyVoucher(Guid orderId, string code)
+        //TODO: alterar aqui
+        [HttpPut("apply-voucher/{orderId}")]
+        public ActionResult<OrderViewModel> SetApplyVoucher(Guid orderId, [FromBody]string code)
         {
             var result = _orderAppService.SetApplyVoucher(orderId, code);
             return result;
         }
+
+
+        //TODO: Novo
+        [HttpGet("{orderId}")]
+        public ActionResult<OrderViewModel> GetOrderById(Guid orderId)
+        {
+            var result = _orderAppService.GetById(orderId);
+            return result;
+        }
+
+        //TODO: Novo
+        [HttpGet("last-order-client/{clientId}")]
+        public ActionResult<OrderViewModel> GetLastOrderByClient(Guid clientId)
+        {
+            var result = _orderAppService.GetLastOrderByClient(clientId);
+            return result;
+        }
+
+        //TODO: Novo
+        [HttpGet("list-orders/{clientId}")]
+        public ActionResult<IEnumerable<OrderViewModel>> GetOrdersByClient(Guid clientId)
+        {
+            var result = _orderAppService.GetOrdersByClient(clientId);
+
+            return Ok(result);
+        }
+
     }
 }

@@ -15,6 +15,14 @@ namespace Senac.eShop.API.Controllers.V1
             _basketAppService = basketAppService;
         }
 
+        //Novo
+        [HttpGet("amount-items/{basketId}")]
+        public ActionResult<int> GetAmountBasket(Guid basketId)
+        {
+            var result = _basketAppService.GetById(basketId)?.Items.Count();
+            return Ok(result);
+        }
+
         [HttpPost]
         public ActionResult<BasketViewModel> AddBasket([FromBody] BasketViewModel viewModel)
         {
@@ -30,24 +38,27 @@ namespace Senac.eShop.API.Controllers.V1
         }
 
         [HttpPost("add-item")]
-        public ActionResult<IEnumerable<BasketItemViewModel>> AddItemBasket([FromBody] 
-        BasketItemViewModel viewModel)
+        public ActionResult<IEnumerable<BasketItemViewModel>> AddItemBasket(
+            [FromBody] BasketItemViewModel viewModel)
         {
             var result = _basketAppService.AddItemBasket(viewModel);
             return Ok(result);
         }
 
-        [HttpDelete("remove-item/{idBasketItem}")]
-        public ActionResult<IEnumerable<BasketItemViewModel>> RemoveItemBasket(Guid idBasketItem)
+        //TODO: Alterar aqui
+        [HttpDelete("remove-item/{basketId}/{productId}")]
+        public ActionResult<IEnumerable<BasketItemViewModel>> RemoveItemBasket(Guid basketId, 
+            Guid productId)
         {
-            var result = _basketAppService.RemoveItemBasket(idBasketItem);
+            var result = _basketAppService.RemoveItemBasket(basketId, productId);
             return Ok(result);
         }
 
-        [HttpPut("update-item/{idBasketItem}/{quantity}")]
-        public ActionResult UpdateItemQuantity(Guid idBasketItem, int quantity)
+        //TODO - Alterar aqui
+        [HttpPut("update-item/{quantity}")]
+        public ActionResult UpdateItemQuantity([FromBody]BasketItemViewModel item, int quantity)
         {
-            _basketAppService.UpdateItemQuantity(idBasketItem, quantity);
+            _basketAppService.UpdateItemQuantity(item, quantity);
             return Ok();
         }
 
