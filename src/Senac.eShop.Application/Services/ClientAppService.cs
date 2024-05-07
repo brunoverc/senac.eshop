@@ -95,8 +95,10 @@ namespace Senac.eShop.Application.Services
             addressViewModel = _addressAppService.Add(addressViewModel);
             Commit();
 
+            var address = _mapper.Map<Address>(addressViewModel);
+
             var client = _repository.GetById(clientId);
-            client.SetAddress(_mapper.Map<Address>(addressViewModel));
+            client.SetAddress(address);
 
             client = _repository.Update(client);
             Commit();

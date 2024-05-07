@@ -60,5 +60,14 @@ namespace Senac.eShop.API.Controllers.V1
             _clientAppService.SetAddAddressClient(clientId, address);
             return Ok();
         }
+
+        [HttpGet("/address/{clientId}")]
+        public ActionResult<AddressViewModel> GetClientAddress(Guid clientId)
+        {
+            var addressId  = _clientAppService.GetById(clientId).AddressId;
+            var address = _addressAppService.GetById(addressId);
+
+            return Ok(address);
+        }
     }
 }
