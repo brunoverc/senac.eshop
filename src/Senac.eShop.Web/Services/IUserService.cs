@@ -9,5 +9,7 @@ namespace Senac.eShop.Web.Services
         string GetUserEmail();
         string GetUserToken();
         bool IsAuthenticated();
+
+        HttpContext GetHttpContext();
     }
 }

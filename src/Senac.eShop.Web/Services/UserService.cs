@@ -31,5 +31,10 @@ namespace Senac.eShop.Web.Services
         {
             return true;
         }
+
+        public HttpContext GetHttpContext()
+        {
+            return _accessor.HttpContext;
+        }
     }
 }
