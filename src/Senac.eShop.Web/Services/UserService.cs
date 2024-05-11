@@ -1,4 +1,5 @@
-﻿
+﻿using Senac.eShop.Core.User;
+
 namespace Senac.eShop.Web.Services
 {
     public class UserService : IUserService
@@ -10,26 +11,27 @@ namespace Senac.eShop.Web.Services
             _accessor = accessor;
         }
 
-        public string Name => throw new NotImplementedException();
+        public string Name => _accessor.HttpContext.User.Identity.Name;
 
         public string GetUserEmail()
         {
-            return "bruno@senac.br";
+            return IsAuthenticated() ? _accessor.HttpContext.User.GetUserEmail() : "";
         }
 
         public Guid GetUserId()
         {
-            return Guid.NewGuid();
+            return IsAuthenticated() ? Guid.Parse(_accessor.HttpContext.User.GetUserId()) :
+                Guid.Empty;
         }
 
         public string GetUserToken()
         {
-            return "";
+            return IsAuthenticated() ? _accessor.HttpContext.User.GetUserToken() : "";
         }
 
         public bool IsAuthenticated()
         {
-            return true;
+            return _accessor.HttpContext.User.Identity.IsAuthenticated;
         }
 
         public HttpContext GetHttpContext()

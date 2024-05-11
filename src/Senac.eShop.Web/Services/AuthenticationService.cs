@@ -12,14 +12,10 @@ namespace Senac.eShop.Web.Services
     public interface IAuthService
     {
         Task<UserLoginResponse> Login(UserLogin userLogin);
-
-        Task<UserLoginResponse> NewUSer(UserRegister userRegister);
-
-        Task Login(UserLoginResponse resposta);
+        Task<UserRegisteredResponse> NewUSer(UserRegister userRegister);
+        Task AccomplishLogin(UserLoginResponse response);
         Task Logout();
-
         bool ExpiredToken();
-
     }
 
     public class AuthenticationService : Service, IAuthService
@@ -27,7 +23,7 @@ namespace Senac.eShop.Web.Services
         private readonly HttpClient _httpClient;
 
         private readonly IUserService _user;
-        private readonly Microsoft.AspNetCore.Authentication.IAuthenticationService _authenticationService;
+        private readonly IAuthenticationService _authenticationService;
 
         public AuthenticationService(HttpClient httpClient,
                                    IOptions<AppSettings> settings,
@@ -55,30 +51,32 @@ namespace Senac.eShop.Web.Services
             return await DeserializeObjectResponse<UserLoginResponse>(response);
         }
 
-        public async Task<UserLoginResponse> NewUSer(UserRegister userRegister)
+        public async Task<UserRegisteredResponse> NewUSer(UserRegister userRegister)
         {
-            var registroContent = GetContent(userRegister);
+            var contentRegister = GetContent(userRegister);
 
-            var response = await _httpClient.PostAsync("/api/identidade/nova-conta", registroContent);
+            var response = await _httpClient.PostAsync("/register", 
+                contentRegister);
 
             if (!HandleErrosResponse(response))
             {
-                return await DeserializeObjectResponse<UserLoginResponse>(response);
+                return await DeserializeObjectResponse<UserRegisteredResponse>(response);
             }
 
-            return await DeserializeObjectResponse<UserLoginResponse>(response);
+            return await DeserializeObjectResponse<UserRegisteredResponse>(response);
         }
 
 
-        public async Task Login(UserLoginResponse resposta)
+        public async Task AccomplishLogin(UserLoginResponse response)
         {
-            var token = GetTokenFormated(resposta.Token);
+            var token = GetTokenFormated(response.Token);
 
             var claims = new List<Claim>();
-            claims.Add(new Claim("JWT", resposta.Token));
+            claims.Add(new Claim("JWT", response.Token));
             claims.AddRange(token.Claims);
 
-            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var claimsIdentity = new ClaimsIdentity(claims, 
+                CookieAuthenticationDefaults.AuthenticationScheme);
 
             var authProperties = new AuthenticationProperties
             {
