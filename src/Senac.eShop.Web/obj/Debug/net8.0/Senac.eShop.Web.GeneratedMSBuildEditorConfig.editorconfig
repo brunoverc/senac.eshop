@@ -10,103 +10,103 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Senac.eShop.Web
 build_property.RootNamespace = Senac.eShop.Web
-build_property.ProjectDir = C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\
+build_property.ProjectDir = /Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web
+build_property.MSBuildProjectDirectory = /Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Basket/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0XEluZGV4LmNzaHRtbA==
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Basket/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFza2V0L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Catalog/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xJbmRleC5jc2h0bWw=
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Catalog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0YWxvZy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Catalog/ProductDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xQcm9kdWN0RGV0YWlsLmNzaHRtbA==
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Catalog/ProductDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0YWxvZy9Qcm9kdWN0RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Identity/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcTG9naW4uY3NodG1s
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Identity/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSWRlbnRpdHkvTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Identity/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcUmVnaXN0ZXIuY3NodG1s
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Identity/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSWRlbnRpdHkvUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Order/AddressDelivery.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRkcmVzc0RlbGl2ZXJ5LmNzaHRtbA==
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Order/AddressDelivery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvQWRkcmVzc0RlbGl2ZXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Order/ConfirmOrder.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ29uZmlybU9yZGVyLmNzaHRtbA==
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Order/ConfirmOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvQ29uZmlybU9yZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Order/MyOrders.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcTXlPcmRlcnMuY3NodG1s
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Order/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvTXlPcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Order/Payment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcUGF5bWVudC5jc2h0bWw=
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Order/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvUGF5bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Order/_Address.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcX0FkZHJlc3MuY3NodG1s
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Order/_Address.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvX0FkZHJlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Order/_FinancialSummary.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcX0ZpbmFuY2lhbFN1bW1hcnkuY3NodG1s
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Order/_FinancialSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvX0ZpbmFuY2lhbFN1bW1hcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Order/_NewAddress.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcX05ld0FkZHJlc3MuY3NodG1s
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Order/_NewAddress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvX05ld0FkZHJlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Shared/Components/Basket/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmFza2V0XERlZmF1bHQuY3NodG1s
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Shared/Components/Basket/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQmFza2V0L0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Shared/Components/Pagination/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUGFnaW5hdGlvblxEZWZhdWx0LmNzaHRtbA==
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Shared/Components/Pagination/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUGFnaW5hdGlvbi9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Shared/Components/Summary/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3VtbWFyeVxEZWZhdWx0LmNzaHRtbA==
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Shared/Components/Summary/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU3VtbWFyeS9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Instrutor/Documents/GitHub/senac.eshop/src/Senac.eShop.Web/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-m22830sfuz
+[/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rd9rr2qde0

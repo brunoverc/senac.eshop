@@ -13,220 +13,115 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3875dac2-3e4e-4a8f-82e0-ac9325a127be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Models/PagedViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Senac.Tecnico.eShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Senac.Tecnico.eShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.API.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Domain.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Domain.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Domain.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Domain.Shared.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Infra.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Infra.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Infra.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Infra.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Infra.Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Infra.Identity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Infra.Identity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/bin/Debug/net8.0/Senac.eShop.Infra.Identity.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/Senac.eShop.API.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/ref/Senac.eShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/ref/Senac.eShop.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/refint/Senac.eShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/refint/Senac.eShop.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Senac.eShop.API.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Senac.eShop.API.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Senac.eShop.API.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Senac.eShop.API.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Senac.eShop.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Senac.eShop.API.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Senac.eShop.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Senac.eShop.API.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Senac.eShop.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/Senac.eShop.API.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/Services/OrderAppService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/Services/OrderAppService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Domain.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Domain.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Domain.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Domain.Shared.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/bin/Debug/net8.0/Senac.eShop.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/Senac.eShop.Application.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/ref/Senac.eShop.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/ref/Senac.eShop.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/refint/Senac.eShop.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Debug/net8.0/refint/Senac.eShop.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Senac.eShop.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Senac.eShop.Application.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Senac.eShop.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Senac.eShop.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Senac.eShop.Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/Senac.eShop.Application.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/Enums/OrderStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/Enums/OrderStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/bin/Debug/net8.0/Senac.eShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/bin/Debug/net8.0/Senac.eShop.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/bin/Debug/net8.0/Senac.eShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/bin/Debug/net8.0/Senac.eShop.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/ref/Senac.eShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/ref/Senac.eShop.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/refint/Senac.eShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/refint/Senac.eShop.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Senac.eShop.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Senac.eShop.Core.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Senac.eShop.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Senac.eShop.Core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Senac.eShop.Core.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/Senac.eShop.Core.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Core/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/bin/Debug/net8.0/Senac.eShop.Domain.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/bin/Debug/net8.0/Senac.eShop.Domain.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/bin/Debug/net8.0/Senac.eShop.Domain.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/bin/Debug/net8.0/Senac.eShop.Domain.Shared.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/Senac.eShop.Domain.Shared.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/ref/Senac.eShop.Domain.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/ref/Senac.eShop.Domain.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/refint/Senac.eShop.Domain.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Debug/net8.0/refint/Senac.eShop.Domain.Shared.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Senac.eShop.Domain.Shared.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Senac.eShop.Domain.Shared.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Senac.eShop.Domain.Shared.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/Senac.eShop.Domain.Shared.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain.Shared/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/Entities/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/Entities/Order.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/ref/Senac.eShop.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/ref/Senac.eShop.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/refint/Senac.eShop.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Debug/net8.0/refint/Senac.eShop.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Senac.eShop.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Senac.eShop.Domain.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Senac.eShop.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Senac.eShop.Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Senac.eShop.Domain.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/Senac.eShop.Domain.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/bin/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/bin/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/bin/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/bin/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/Senac.eShop.Infra.CrossCutting.IoC.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/ref/Senac.eShop.Infra.CrossCutting.IoC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/ref/Senac.eShop.Infra.CrossCutting.IoC.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/refint/Senac.eShop.Infra.CrossCutting.IoC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Debug/net8.0/refint/Senac.eShop.Infra.CrossCutting.IoC.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Senac.eShop.Infra.CrossCutting.IoC.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Senac.eShop.Infra.CrossCutting.IoC.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Senac.eShop.Infra.CrossCutting.IoC.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/Senac.eShop.Infra.CrossCutting.IoC.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.CrossCutting.IoC/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Domain.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Domain.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Domain.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Domain.Shared.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Infra.Data.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Infra.Data.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Infra.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Infra.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Infra.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/bin/Debug/net8.0/Senac.eShop.Infra.Data.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/Senac.eShop.Infra.Data.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/ref/Senac.eShop.Infra.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/ref/Senac.eShop.Infra.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/refint/Senac.eShop.Infra.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Debug/net8.0/refint/Senac.eShop.Infra.Data.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Senac.eShop.Infra.Data.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Senac.eShop.Infra.Data.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Senac.eShop.Infra.Data.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Senac.eShop.Infra.Data.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Senac.eShop.Infra.Data.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/Senac.eShop.Infra.Data.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Data/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Domain.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Domain.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Domain.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Domain.Shared.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Infra.Identity.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Infra.Identity.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Infra.Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Infra.Identity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Infra.Identity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/bin/Debug/net8.0/Senac.eShop.Infra.Identity.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/Senac.eShop.Infra.Identity.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/ref/Senac.eShop.Infra.Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/ref/Senac.eShop.Infra.Identity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/refint/Senac.eShop.Infra.Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Debug/net8.0/refint/Senac.eShop.Infra.Identity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Senac.eShop.Infra.Identity.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Senac.eShop.Infra.Identity.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Senac.eShop.Infra.Identity.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Senac.eShop.Infra.Identity.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Senac.eShop.Infra.Identity.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/Senac.eShop.Infra.Identity.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Infra.Identity/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/Extensions/CpfAnnotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Extensions/CpfAnnotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/Extensions/CustomHttpRequestException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Extensions/CustomHttpRequestException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/Extensions/ExceptionMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Extensions/ExceptionMiddleware.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/Extensions/PaginationViewComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Extensions/PaginationViewComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/Extensions/RazorHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Extensions/RazorHelpers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/Extensions/SummaryViewComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Extensions/SummaryViewComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/Senac.eShop.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Senac.eShop.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/Controllers/BasketController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Controllers/BasketController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/Controllers/OrderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Controllers/OrderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/Services/OrderBffService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Services/OrderBffService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/Views/Basket/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Views/Basket/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/Views/Order/AddressDelivery.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/Views/Order/AddressDelivery.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
@@ -234,17 +129,11 @@
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.RazorAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Senac.eShop.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Senac.eShop.Web.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Senac.eShop.Web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Senac.eShop.Web.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Senac.eShop.Web.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/Senac.eShop.Web.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Senac.eShop.Web/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,27 +157,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Senac.eShop.Site: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;tecnico-2023&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Senac.eShop.Site: http.executor": "Run",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "tecnico-2023",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/brunovercosa/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/brunovercosa/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/brunovercosa/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/brunovercosa/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/Users/brunovercosa/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
+      "/Users/brunovercosa/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Senac.eShop.Site: http">
     <configuration name="Senac.eShop.API: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/Senac.eShop.API/Senac.eShop.API.csproj" />
@@ -394,6 +284,7 @@
       <workItem from="1713568632936" duration="1233000" />
       <workItem from="1713821721415" duration="2897000" />
       <workItem from="1713873241955" duration="202000" />
+      <workItem from="1715608510281" duration="5713000" />
     </task>
     <servers />
   </component>
@@ -401,6 +292,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

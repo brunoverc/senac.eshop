@@ -54,7 +54,7 @@
                                                         <small class="text-muted"> @this.FormatoMoeda(item.Product.Price) cada</small>
                                                     </div>
                                                 </td>
-                                                <form method="post" asp-controller="Basket" asp-action="RefreshBasketItem">
+                                                <form method="post" asp-controller="Basket" asp-action="UpdateBasketItem">
                                                 <td>
 
                                                     <input type="hidden" id="ProductId" name="ProductId" value="@item.ProductId" />
@@ -78,7 +78,7 @@
                                                 </td>
                                                 </form>
                                                 <td>
-                                                    <form method="post" asp-controller="Basket" asp-action="RemoveBasketItem">
+                                                    <form method="post" asp-controller="Basket" asp-action="RemoveItemBasket">
                                                         <div>
 
                                                             <input type="hidden" id="ProductId" name="ProductId"
@@ -112,7 +112,7 @@
                     <aside class="col-md-3">
                         <div class="card mb-3">
                             <div class="card-body">
-                                <form asp-action="ApplyVoucher">
+                                <form asp-controller="Order" asp-action="ApplyVoucher">
                                     <div class="form-group">
                                         <label>Possui um Voucher?</label>
 

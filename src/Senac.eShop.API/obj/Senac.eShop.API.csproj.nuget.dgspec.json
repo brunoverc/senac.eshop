@@ -1,44 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.API\\Senac.eShop.API.csproj": {}
+    "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.API/Senac.eShop.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.API\\Senac.eShop.API.csproj": {
+    "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.API/Senac.eShop.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.API\\Senac.eShop.API.csproj",
+        "projectUniqueName": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.API/Senac.eShop.API.csproj",
         "projectName": "Senac.eShop.API",
-        "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.API\\Senac.eShop.API.csproj",
-        "packagesPath": "C:\\Users\\Instrutor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.API\\obj\\",
+        "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.API/Senac.eShop.API.csproj",
+        "packagesPath": "/Users/brunovercosa/.nuget/packages/",
+        "outputPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Instrutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/brunovercosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Senac.eShop.Application.csproj": {
-                "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Senac.eShop.Application.csproj"
+              "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Application/Senac.eShop.Application.csproj": {
+                "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Application/Senac.eShop.Application.csproj"
               },
-              "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj"
+              "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/Senac.eShop.Domain.csproj": {
+                "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/Senac.eShop.Domain.csproj"
               },
-              "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj"
+              "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.Data/Senac.eShop.Infra.Data.csproj": {
+                "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.Data/Senac.eShop.Infra.Data.csproj"
               },
-              "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Identity\\Senac.eShop.Infra.Identity.csproj": {
-                "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Identity\\Senac.eShop.Infra.Identity.csproj"
+              "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.Identity/Senac.eShop.Infra.Identity.csproj": {
+                "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.Identity/Senac.eShop.Infra.Identity.csproj"
               }
             }
           }
@@ -47,11 +46,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -154,42 +148,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Senac.eShop.Application.csproj": {
+    "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Application/Senac.eShop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Senac.eShop.Application.csproj",
+        "projectUniqueName": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Application/Senac.eShop.Application.csproj",
         "projectName": "Senac.eShop.Application",
-        "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Senac.eShop.Application.csproj",
-        "packagesPath": "C:\\Users\\Instrutor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\obj\\",
+        "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Application/Senac.eShop.Application.csproj",
+        "packagesPath": "/Users/brunovercosa/.nuget/packages/",
+        "outputPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Instrutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/brunovercosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj": {
-                "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj"
+              "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/Senac.eShop.Core.csproj": {
+                "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/Senac.eShop.Core.csproj"
               },
-              "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj": {
-                "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj"
+              "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain.Shared/Senac.eShop.Domain.Shared.csproj": {
+                "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain.Shared/Senac.eShop.Domain.Shared.csproj"
               },
-              "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj"
+              "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/Senac.eShop.Domain.csproj": {
+                "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/Senac.eShop.Domain.csproj"
               }
             }
           }
@@ -198,11 +191,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -234,28 +222,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj": {
+    "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/Senac.eShop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj",
+        "projectUniqueName": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/Senac.eShop.Core.csproj",
         "projectName": "Senac.eShop.Core",
-        "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj",
-        "packagesPath": "C:\\Users\\Instrutor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\obj\\",
+        "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/Senac.eShop.Core.csproj",
+        "packagesPath": "/Users/brunovercosa/.nuget/packages/",
+        "outputPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Instrutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/brunovercosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -268,11 +255,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -312,28 +294,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj": {
+    "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain.Shared/Senac.eShop.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj",
+        "projectUniqueName": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain.Shared/Senac.eShop.Domain.Shared.csproj",
         "projectName": "Senac.eShop.Domain.Shared",
-        "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj",
-        "packagesPath": "C:\\Users\\Instrutor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\obj\\",
+        "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain.Shared/Senac.eShop.Domain.Shared.csproj",
+        "packagesPath": "/Users/brunovercosa/.nuget/packages/",
+        "outputPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Instrutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/brunovercosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -346,11 +327,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -372,36 +348,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj": {
+    "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/Senac.eShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj",
+        "projectUniqueName": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/Senac.eShop.Domain.csproj",
         "projectName": "Senac.eShop.Domain",
-        "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj",
-        "packagesPath": "C:\\Users\\Instrutor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\obj\\",
+        "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/Senac.eShop.Domain.csproj",
+        "packagesPath": "/Users/brunovercosa/.nuget/packages/",
+        "outputPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Instrutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/brunovercosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj": {
-                "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Core\\Senac.eShop.Core.csproj"
+              "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/Senac.eShop.Core.csproj": {
+                "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/Senac.eShop.Core.csproj"
               }
             }
           }
@@ -410,11 +385,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -436,39 +406,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj": {
+    "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.Data/Senac.eShop.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj",
+        "projectUniqueName": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.Data/Senac.eShop.Infra.Data.csproj",
         "projectName": "Senac.eShop.Infra.Data",
-        "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\Senac.eShop.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\Instrutor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Data\\obj\\",
+        "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.Data/Senac.eShop.Infra.Data.csproj",
+        "packagesPath": "/Users/brunovercosa/.nuget/packages/",
+        "outputPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Instrutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/brunovercosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj": {
-                "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain.Shared\\Senac.eShop.Domain.Shared.csproj"
+              "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain.Shared/Senac.eShop.Domain.Shared.csproj": {
+                "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain.Shared/Senac.eShop.Domain.Shared.csproj"
               },
-              "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Domain\\Senac.eShop.Domain.csproj"
+              "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/Senac.eShop.Domain.csproj": {
+                "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/Senac.eShop.Domain.csproj"
               }
             }
           }
@@ -477,11 +446,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -547,36 +511,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Identity\\Senac.eShop.Infra.Identity.csproj": {
+    "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.Identity/Senac.eShop.Infra.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Identity\\Senac.eShop.Infra.Identity.csproj",
+        "projectUniqueName": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.Identity/Senac.eShop.Infra.Identity.csproj",
         "projectName": "Senac.eShop.Infra.Identity",
-        "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Identity\\Senac.eShop.Infra.Identity.csproj",
-        "packagesPath": "C:\\Users\\Instrutor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.Identity\\obj\\",
+        "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.Identity/Senac.eShop.Infra.Identity.csproj",
+        "packagesPath": "/Users/brunovercosa/.nuget/packages/",
+        "outputPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.Identity/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Instrutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/brunovercosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Senac.eShop.Application.csproj": {
-                "projectPath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Application\\Senac.eShop.Application.csproj"
+              "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Application/Senac.eShop.Application.csproj": {
+                "projectPath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Application/Senac.eShop.Application.csproj"
               }
             }
           }
@@ -585,11 +548,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -629,7 +587,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

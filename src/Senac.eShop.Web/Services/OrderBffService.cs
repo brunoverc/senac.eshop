@@ -8,7 +8,7 @@ namespace Senac.eShop.Web.Services
     public interface IOrderBffService
     {
         #region Carrinho
-        Task<OrderViewModel> GetBasket(Guid basketId);
+        Task<BasketViewModel> GetBasket(Guid basketId);
         Task<int> GetAmountBasket(Guid basketId);
         Task<ResponseResult> AddBasketItem(BasketItemViewModel item);
         Task<ResponseResult> UpdateBasketItem(BasketItemViewModel item, int amount);
@@ -22,6 +22,8 @@ namespace Senac.eShop.Web.Services
         Task<OrderViewModel> GetLastOrderClient(Guid clientId);
         Task<IEnumerable<OrderViewModel>> GetOrdersByClient(Guid clientId);
         OrderTransactionViewModel MapToOrder(OrderViewModel order, AddressViewModel address);
+        Task<ResponseResult> FinishOrder(OrderTransactionViewModel orderTransaction);
+
         #endregion
     }
 
@@ -50,14 +52,14 @@ namespace Senac.eShop.Web.Services
             return ReturnOk();
         }
 
-        public async Task<OrderViewModel> GetBasket(Guid basketId)
+        public async Task<BasketViewModel> GetBasket(Guid basketId)
         {
 
             var response = await _httpClient.GetAsync($"/basket/{basketId}");
 
             HandleErrosResponse(response);
 
-            return await DeserializeObjectResponse<OrderViewModel>(response);
+            return await DeserializeObjectResponse<BasketViewModel>(response);
         }
         public async Task<int> GetAmountBasket(Guid basketId)
         {
@@ -164,6 +166,17 @@ namespace Senac.eShop.Web.Services
             }
 
             return orderViewModel;
+        }
+        
+        public async Task<ResponseResult> FinishOrder(OrderTransactionViewModel orderTransaction)
+        {
+            var orderContent = GetContent(orderTransaction);
+
+            var response = await _httpClient.PostAsync("/create-new-order", orderContent);
+
+            if (!HandleErrosResponse(response)) return await DeserializeObjectResponse<ResponseResult>(response);
+
+            return ReturnOk();
         }
 
         #endregion
