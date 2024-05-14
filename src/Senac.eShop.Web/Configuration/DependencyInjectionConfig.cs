@@ -20,34 +20,7 @@ namespace Senac.eShop.Web.Configuration
             services.AddScoped<IUserService, UserService>();
 
             #region HttpServices
-            services.AddTransient<HttpClientAuthorizationDelegatingHandler>();
-
-            services.AddHttpClient<IAuthService, AuthenticationService>()
-                .AddPolicyHandler(PollyExtensions.WaitAndTry())
-                .AllowSelfSignedCertificate()
-                .AddTransientHttpErrorPolicy(
-                    p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
-
-            services.AddHttpClient<ICatalogService, CatalogService>()
-                .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
-                .AddPolicyHandler(PollyExtensions.WaitAndTry())
-                .AllowSelfSignedCertificate()
-                .AddTransientHttpErrorPolicy(
-                    p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
-
-            services.AddHttpClient<IOrderBffService, OrderBffService>()
-                .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
-                .AddPolicyHandler(PollyExtensions.WaitAndTry())
-                .AllowSelfSignedCertificate()
-                .AddTransientHttpErrorPolicy(
-                    p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
-
-            services.AddHttpClient<IClientService, ClientService>()
-                .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
-                .AddPolicyHandler(PollyExtensions.WaitAndTry())
-                .AllowSelfSignedCertificate()
-                .AddTransientHttpErrorPolicy(
-                    p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
+            
 
             #endregion
         }
