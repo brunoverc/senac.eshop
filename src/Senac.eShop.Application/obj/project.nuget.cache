@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "CRj9V+SFzdPlT4zvhdpBSOJseILfWLgDnqUOT9cM0TOPAZspwGEJ9YID1i+IVKU+7sdfUBODqivbNn/fR3jBcg==",
-  "success": false,
+  "dgSpecHash": "E2TVAox00X0wU3fxm8JQy3ShBblCW1/ezN2WUC5nNGm8BUWn62Grz7JBjwr6nBenEpeoO1mZFpaMiaQrRgOLtw==",
+  "success": true,
   "projectFilePath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Application/Senac.eShop.Application.csproj",
   "expectedPackageFiles": [
     "/Users/brunovercosa/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/brunovercosa/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
     "/Users/brunovercosa/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/brunovercosa/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/Users/brunovercosa/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.3/microsoft.aspnetcore.authentication.jwtbearer.8.0.3.nupkg.sha512",
+    "/Users/brunovercosa/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.4/microsoft.aspnetcore.authentication.jwtbearer.8.0.4.nupkg.sha512",
     "/Users/brunovercosa/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/Users/brunovercosa/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/Users/brunovercosa/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
@@ -37,15 +37,5 @@
     "/Users/brunovercosa/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/Users/brunovercosa/.nuget/packages/system.text.json/8.0.3/system.text.json.8.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.AspNetCore.Authentication.JwtBearer from 8.0.4 to 8.0.3. Reference the package directly from the project to select a different version. \n Senac.eShop.Application -> Senac.eShop.Core -> NetDevPack.Security.JwtExtensions 8.0.0 -> Microsoft.AspNetCore.Authentication.JwtBearer (>= 8.0.4) \n Senac.eShop.Application -> Senac.eShop.Core -> Microsoft.AspNetCore.Authentication.JwtBearer (>= 8.0.3)",
-      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

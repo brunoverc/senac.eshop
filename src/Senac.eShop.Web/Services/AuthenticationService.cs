@@ -12,7 +12,7 @@ namespace Senac.eShop.Web.Services
     public interface IAuthService
     {
         Task<UserLoginResponse> Login(UserLogin userLogin);
-        Task<UserRegisteredResponse> NewUSer(UserRegister userRegister);
+        Task<UserLoginResponse> NewUSer(UserRegister userRegister);
         Task AccomplishLogin(UserLoginResponse response);
         Task Logout();
         bool ExpiredToken();
@@ -51,7 +51,7 @@ namespace Senac.eShop.Web.Services
             return await DeserializeObjectResponse<UserLoginResponse>(response);
         }
 
-        public async Task<UserRegisteredResponse> NewUSer(UserRegister userRegister)
+        public async Task<UserLoginResponse> NewUSer(UserRegister userRegister)
         {
             var contentRegister = GetContent(userRegister);
 
@@ -60,10 +60,10 @@ namespace Senac.eShop.Web.Services
 
             if (!HandleErrosResponse(response))
             {
-                return await DeserializeObjectResponse<UserRegisteredResponse>(response);
+                return await DeserializeObjectResponse<UserLoginResponse>(response);
             }
 
-            return await DeserializeObjectResponse<UserRegisteredResponse>(response);
+            return await DeserializeObjectResponse<UserLoginResponse>(response);
         }
 
 
@@ -112,6 +112,8 @@ namespace Senac.eShop.Web.Services
             var token = GetTokenFormated(jwt);
             return token.ValidTo.ToLocalTime() < DateTime.Now;
         }
+        
+        
 
     }
 }

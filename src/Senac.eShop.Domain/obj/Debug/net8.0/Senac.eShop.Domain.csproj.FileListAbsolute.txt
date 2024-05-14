@@ -1,0 +1,16 @@
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Domain.deps.json
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Domain.dll
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Domain.pdb
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Core.dll
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/bin/Debug/net8.0/Senac.eShop.Core.pdb
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.csproj.AssemblyReference.cache
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.AssemblyInfoInputs.cache
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.AssemblyInfo.cs
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.csproj.CoreCompileInputs.cache
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.sourcelink.json
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.csproj.CopyComplete
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.dll
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/obj/Debug/net8.0/refint/Senac.eShop.Domain.dll
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/obj/Debug/net8.0/Senac.eShop.Domain.pdb
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/obj/Debug/net8.0/ref/Senac.eShop.Domain.dll

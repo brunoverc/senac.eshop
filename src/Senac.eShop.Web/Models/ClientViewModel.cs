@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
+using Senac.eShop.Core.Communication;
 
 namespace Senac.eShop.Web.Models
 {
@@ -49,6 +50,7 @@ namespace Senac.eShop.Web.Models
         public string Token { get; set; }
         public DateTime? ExpirationDate { get; set; }
         public List<string> Errors { get; set; }
+        public ResponseResult ResponseResult { get; set; }
     }
 
     public class UserRegister
@@ -72,7 +74,23 @@ namespace Senac.eShop.Web.Models
 
     public class UserRegisteredResponse
     {
-        public bool Success { get; set; }
-        public List<string> Errors { get; set; }
+        public string AccessToken { get; set; }
+        public string RefreshToken { get; set; }
+        public double ExpiresIn { get; set; }
+        public UserToken UsuarioToken { get; set; }
+        public ResponseResult ResponseResult { get; set; }
+    }
+    
+    public class UserToken
+    {
+        public string Id { get; set; }
+        public string Email { get; set; }
+        public IEnumerable<UserClaim> Claims { get; set; }
+    }
+
+    public class UserClaim
+    {
+        public string Value { get; set; }
+        public string Type { get; set; }
     }
 }

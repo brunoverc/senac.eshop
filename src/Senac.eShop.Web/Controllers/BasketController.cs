@@ -28,11 +28,11 @@ namespace Senac.eShop.Web.Controllers
 
         [HttpPost]
         [Route("basket/add-item")]
-        public async Task<IActionResult> AddBasketItem(BasketItemViewModel itemCarrinho)
+        public async Task<IActionResult> AddBasketItem(BasketItemViewModel item)
         {
-            var response = await _orderBffService.AddBasketItem(itemCarrinho);
+            var response = await _orderBffService.AddBasketItem(item);
 
-            if (ResponseWithError(response)) return View("Index", await _orderBffService.GetBasket(itemCarrinho.BasketId));
+            if (ResponseWithError(response)) return View("Index", await _orderBffService.GetBasket(item.BasketId));
 
             return RedirectToAction("Index");
         }

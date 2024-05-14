@@ -89,9 +89,6 @@ namespace Senac.eShop.Web.Controllers
         public async Task<IActionResult> ApplyVoucher(Guid orderId, string voucherCodigo)
         {
             var resposta = await _orderBffService.ApplyVoucherCode(orderId, voucherCodigo);
-
-            if (ResponseWithError(resposta)) return View("Index", await _orderBffService.GetBasket(userId));
-
             return RedirectToAction("Payment");
         }
     }

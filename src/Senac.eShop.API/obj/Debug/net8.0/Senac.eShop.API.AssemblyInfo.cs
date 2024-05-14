@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Senac.eShop.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ffa313008b395c50bd917c59fa4cee428ef3e72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6878fc78c2b123c96f0304665d74969eb0f734c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Senac.eShop.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Senac.eShop.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

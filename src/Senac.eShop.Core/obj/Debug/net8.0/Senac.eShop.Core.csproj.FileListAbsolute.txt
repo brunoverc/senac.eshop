@@ -1,0 +1,13 @@
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/bin/Debug/net8.0/Senac.eShop.Core.deps.json
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/bin/Debug/net8.0/Senac.eShop.Core.dll
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/bin/Debug/net8.0/Senac.eShop.Core.pdb
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.csproj.AssemblyReference.cache
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.AssemblyInfoInputs.cache
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.AssemblyInfo.cs
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.csproj.CoreCompileInputs.cache
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.sourcelink.json
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.dll
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/obj/Debug/net8.0/refint/Senac.eShop.Core.dll
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/obj/Debug/net8.0/Senac.eShop.Core.pdb
+/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Core/obj/Debug/net8.0/ref/Senac.eShop.Core.dll

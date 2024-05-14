@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "odkfqgi8yB6UhWjOqOHdXoU1ugeQYVaBhXsUrIFG8CZXzVcjP3mmkmh6PW245ScenR5qwUbijWE4m1c7tEaPYg==",
-  "success": false,
+  "dgSpecHash": "eSxcVDWKWeBRZOy6VCoX4ypDCtUVCx/ajE855yblYwMaAZFwKyRYTZuxHX2FwL0DFFRT6A3Ba/IBdmseqYAuZQ==",
+  "success": true,
   "projectFilePath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Domain/Senac.eShop.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/brunovercosa/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
-    "/Users/brunovercosa/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.3/microsoft.aspnetcore.authentication.jwtbearer.8.0.3.nupkg.sha512",
+    "/Users/brunovercosa/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.4/microsoft.aspnetcore.authentication.jwtbearer.8.0.4.nupkg.sha512",
     "/Users/brunovercosa/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/Users/brunovercosa/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/Users/brunovercosa/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
@@ -34,15 +34,5 @@
     "/Users/brunovercosa/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/Users/brunovercosa/.nuget/packages/system.text.json/8.0.3/system.text.json.8.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.AspNetCore.Authentication.JwtBearer from 8.0.4 to 8.0.3. Reference the package directly from the project to select a different version. \n Senac.eShop.Domain -> Senac.eShop.Core -> NetDevPack.Security.JwtExtensions 8.0.0 -> Microsoft.AspNetCore.Authentication.JwtBearer (>= 8.0.4) \n Senac.eShop.Domain -> Senac.eShop.Core -> Microsoft.AspNetCore.Authentication.JwtBearer (>= 8.0.3)",
-      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
