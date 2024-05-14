@@ -451,11 +451,11 @@
 /Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.pdb
 /Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/obj/Debug/net8.0/Senac.eShop.Web.genruntimeconfig.cache
 /Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Web/obj/Debug/net8.0/ref/Senac.eShop.Web.dll
-C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\appsettings.json
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\Senac.eShop.API.deps.json
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\Senac.eShop.API.runtimeconfig.json
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\Senac.eShop.API.exe
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\appsettings.json
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\Senac.eShop.Web.staticwebassets.runtime.json
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\Senac.eShop.Web.exe
 C:\Users\Instrutor\Documents\GitHub\senac.eshop\src\Senac.eShop.Web\bin\Debug\net8.0\Senac.eShop.Web.deps.json

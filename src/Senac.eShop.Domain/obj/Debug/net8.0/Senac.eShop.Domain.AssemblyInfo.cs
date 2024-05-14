@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Senac.eShop.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42c43fca5c75192529cf37a9cd3972755995c0c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7ef440db79b1c95dc60a488b1b1e4cb30d38902")]
 [assembly: System.Reflection.AssemblyProductAttribute("Senac.eShop.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Senac.eShop.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

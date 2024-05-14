@@ -13,8 +13,8 @@ namespace Senac.eShop.Web.Controllers
         }
 
         [HttpGet]
-        [Route("")]
-        [Route("showcase")]
+        [Route("catalog")]
+        [Route("catalog/showcase")]
         public async Task<IActionResult> Index([FromQuery] int pageSize = 8,
             [FromQuery] int page = 1,
             [FromQuery] string productName = null)
