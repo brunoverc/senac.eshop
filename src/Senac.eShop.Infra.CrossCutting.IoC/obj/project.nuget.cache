@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uzoCmHUQR8n31tHRDOfXefYiN+Ra+COIaVSfGls5ehH+GwNJcNKh/roa4GhCuPpwfuy/9iugsQ6Ce1mF3hwzgg==",
+  "dgSpecHash": "ny6JTHxBBuWWmuWRvWDaG2S6QBJouxMHRx69FZTF4w5qiyStPNw5OfqirdCd3LptKLxtOa9qrX1IFu/V2vqyoQ==",
   "success": true,
-  "projectFilePath": "/Users/brunovercosa/Documents/Projects/Senac/senac.eshop/src/Senac.eShop.Infra.CrossCutting.IoC/Senac.eShop.Infra.CrossCutting.IoC.csproj",
+  "projectFilePath": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Infra.CrossCutting.IoC\\Senac.eShop.Infra.CrossCutting.IoC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

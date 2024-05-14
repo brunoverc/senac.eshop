@@ -54,15 +54,21 @@ namespace Senac.eShop.Web.Controllers
         [Route("finish-order")]
         public async Task<IActionResult> FinishOrder(OrderTransactionViewModel orderTransaction)
         {
-            if (!ModelState.IsValid) return View("Payment", _orderBffService.MapToOrder(
+            if (!ModelState.IsValid)
+            {
+                return View("Payment", _orderBffService.MapToOrder(
                 await _orderBffService.GetLastOrderClient(userId), null));
+            }
 
             var ret = await _orderBffService.FinishOrder(orderTransaction);
 
             if (ResponseWithError(ret))
             {
                 var order = await _orderBffService.GetLastOrderClient(userId);
-                if (order.OrderItems.Count() == 0) return RedirectToAction("Index", "Basket");
+                if (order.OrderItems.Count() == 0)
+                {
+                    return RedirectToAction("Index", "Basket");
+                }
 
                 var orderMap = _orderBffService.MapToOrder(order, null);
                 return View("Payment", orderMap);
@@ -86,9 +92,10 @@ namespace Senac.eShop.Web.Controllers
         
         [HttpPost]
         [Route("apply-voucher")]
-        public async Task<IActionResult> ApplyVoucher(Guid orderId, string voucherCodigo)
+        public async Task<IActionResult> ApplyVoucher(Guid orderId, string voucherCode)
         {
-            var resposta = await _orderBffService.ApplyVoucherCode(orderId, voucherCodigo);
+            var response = await _orderBffService.ApplyVoucherCode(orderId, voucherCode);
+
             return RedirectToAction("Payment");
         }
     }

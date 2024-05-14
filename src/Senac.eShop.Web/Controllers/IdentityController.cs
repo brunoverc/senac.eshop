@@ -32,6 +32,7 @@ namespace Senac.eShop.Web.Controllers
 
             if (ResponseWithError(response.ResponseResult)) return View(user);
 
+            //Fazer login
             await _authenticationService.AccomplishLogin(response);
 
             return RedirectToAction("Index", "Catalog");
@@ -52,11 +53,11 @@ namespace Senac.eShop.Web.Controllers
             ViewData["ReturnUrl"] = returnUrl;
             if (!ModelState.IsValid) return View(userLogin);
 
-            var resposta = await _authenticationService.Login(userLogin);
+            var response = await _authenticationService.Login(userLogin);
 
-            if (ResponseWithError(resposta.ResponseResult)) return View(userLogin);
+            if (ResponseWithError(response.ResponseResult)) return View(userLogin);
 
-            await _authenticationService.AccomplishLogin(resposta);
+            await _authenticationService.AccomplishLogin(response);
 
             if (string.IsNullOrEmpty(returnUrl)) return RedirectToAction("Index", "Catalog");
 

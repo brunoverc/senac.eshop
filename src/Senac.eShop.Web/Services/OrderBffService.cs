@@ -174,7 +174,10 @@ namespace Senac.eShop.Web.Services
 
             var response = await _httpClient.PostAsync("/create-new-order", orderContent);
 
-            if (!HandleErrosResponse(response)) return await DeserializeObjectResponse<ResponseResult>(response);
+            if (!HandleErrosResponse(response))
+            {
+                return await DeserializeObjectResponse<ResponseResult>(response);
+            }
 
             return ReturnOk();
         }

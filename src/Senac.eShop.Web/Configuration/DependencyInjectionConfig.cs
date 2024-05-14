@@ -2,12 +2,14 @@
 using Polly;
 using Polly.Extensions.Http;
 using Polly.Retry;
+using Senac.eShop.Core.Extensions;
 using Senac.eShop.Web.Extensions;
 using Senac.eShop.Web.Services;
+using Senac.eShop.Web.Services.Handlers;
 
 namespace Senac.eShop.Web.Configuration
 {
-    public static class DEpendencyInjectionConfig
+    public static class DependencyInjectionConfig
     {
         public static void RegisterServices(this IServiceCollection services,
             IConfiguration configuration)
@@ -18,6 +20,34 @@ namespace Senac.eShop.Web.Configuration
             services.AddScoped<IUserService, UserService>();
 
             #region HttpServices
+            services.AddTransient<HttpClientAuthorizationDelegatingHandler>();
+
+            services.AddHttpClient<IAuthService, AuthenticationService>()
+                .AddPolicyHandler(PollyExtensions.WaitAndTry())
+                .AllowSelfSignedCertificate()
+                .AddTransientHttpErrorPolicy(
+                    p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
+
+            services.AddHttpClient<ICatalogService, CatalogService>()
+                .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
+                .AddPolicyHandler(PollyExtensions.WaitAndTry())
+                .AllowSelfSignedCertificate()
+                .AddTransientHttpErrorPolicy(
+                    p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
+
+            services.AddHttpClient<IOrderBffService, OrderBffService>()
+                .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
+                .AddPolicyHandler(PollyExtensions.WaitAndTry())
+                .AllowSelfSignedCertificate()
+                .AddTransientHttpErrorPolicy(
+                    p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
+
+            services.AddHttpClient<IClientService, ClientService>()
+                .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
+                .AddPolicyHandler(PollyExtensions.WaitAndTry())
+                .AllowSelfSignedCertificate()
+                .AddTransientHttpErrorPolicy(
+                    p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
 
             #endregion
         }
