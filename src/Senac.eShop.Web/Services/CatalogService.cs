@@ -25,7 +25,7 @@ namespace Senac.eShop.Web.Services
             int pageIndex, 
             string productName = null)
         {
-            var response = await _httpClient.GetAsync($"/product/{pageSize}/" +
+            var response = await _httpClient.GetAsync($"/api/v1/product/{pageSize}/" +
                 $"{pageIndex}/{productName}");
 
             HandleErrosResponse(response);
@@ -35,7 +35,7 @@ namespace Senac.eShop.Web.Services
 
         public async Task<ProductViewModel> GetById(Guid id)
         {
-            var response = await _httpClient.GetAsync($"product/{id}");
+            var response = await _httpClient.GetAsync($"/api/v1/product/{id}");
 
             HandleErrosResponse(response);
 

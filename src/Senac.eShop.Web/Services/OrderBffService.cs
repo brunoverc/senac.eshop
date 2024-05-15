@@ -43,7 +43,7 @@ namespace Senac.eShop.Web.Services
         {
             var itemContent = GetContent(item);
 
-            var response = await _httpClient.PostAsync($"/basket/add-item",
+            var response = await _httpClient.PostAsync($"/api/v1/basket/add-item",
                 itemContent);
 
             if (!HandleErrosResponse(response))
@@ -55,7 +55,7 @@ namespace Senac.eShop.Web.Services
         public async Task<BasketViewModel> GetBasket(Guid basketId)
         {
 
-            var response = await _httpClient.GetAsync($"/basket/{basketId}");
+            var response = await _httpClient.GetAsync($"/api/v1/basket/{basketId}");
 
             HandleErrosResponse(response);
 
@@ -63,7 +63,7 @@ namespace Senac.eShop.Web.Services
         }
         public async Task<int> GetAmountBasket(Guid basketId)
         {
-            var response = await _httpClient.GetAsync($"/basket/amount-items/{basketId}");
+            var response = await _httpClient.GetAsync($"/api/v1/basket/amount-items/{basketId}");
 
             HandleErrosResponse(response);
 
@@ -74,7 +74,7 @@ namespace Senac.eShop.Web.Services
         {
             var itemContent = GetContent(item);
 
-            var response = await _httpClient.PutAsync($"/basket/update-item/{quantity}", 
+            var response = await _httpClient.PutAsync($"/api/v1/basket/update-item/{quantity}", 
                 itemContent);
 
             if (!HandleErrosResponse(response)) 
@@ -84,7 +84,7 @@ namespace Senac.eShop.Web.Services
         }
         public async Task<ResponseResult> DeleteBasketItem(Guid basketId, Guid productId)
         {
-            var response = await _httpClient.DeleteAsync($"/basket/remove-item/{basketId}/" +
+            var response = await _httpClient.DeleteAsync($"/api/v1/basket/remove-item/{basketId}/" +
                 $"{productId}");
 
             if (!HandleErrosResponse(response)) 
@@ -100,7 +100,7 @@ namespace Senac.eShop.Web.Services
         {
             var itemContent = GetContent(voucher);
 
-            var response = await _httpClient.PostAsync($"/order/apply-voucher/{orderId}",
+            var response = await _httpClient.PostAsync($"/api/v1/order/apply-voucher/{orderId}",
                 itemContent);
 
             if (!HandleErrosResponse(response))
@@ -113,7 +113,7 @@ namespace Senac.eShop.Web.Services
         {
             var orderContent = GetContent(orderTransaction);
 
-            var response = await _httpClient.PostAsync("/order/create-new-order", orderContent);
+            var response = await _httpClient.PostAsync("/api/v1/order/create-new-order", orderContent);
 
             if (!HandleErrosResponse(response)) 
                 return await DeserializeObjectResponse<ResponseResult>(response);
@@ -123,7 +123,7 @@ namespace Senac.eShop.Web.Services
 
         public async Task<OrderViewModel> GetLastOrderClient(Guid clientId)
         {
-            var response = await _httpClient.GetAsync($"/order/last-order-client/{clientId}");
+            var response = await _httpClient.GetAsync($"/api/v1/order/last-order-client/{clientId}");
 
             HandleErrosResponse(response);
 
@@ -132,7 +132,7 @@ namespace Senac.eShop.Web.Services
 
         public async Task<IEnumerable<OrderViewModel>> GetOrdersByClient(Guid clientId)
         {
-            var response = await _httpClient.GetAsync($"/order/list-orders/{clientId}");
+            var response = await _httpClient.GetAsync($"/api/v1/order/list-orders/{clientId}");
 
             HandleErrosResponse(response);
 
@@ -172,7 +172,7 @@ namespace Senac.eShop.Web.Services
         {
             var orderContent = GetContent(orderTransaction);
 
-            var response = await _httpClient.PostAsync("/create-new-order", orderContent);
+            var response = await _httpClient.PostAsync("/api/v1/order/create-new-order", orderContent);
 
             if (!HandleErrosResponse(response))
             {

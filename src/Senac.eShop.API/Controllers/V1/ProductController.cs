@@ -26,9 +26,9 @@ namespace Senac.eShop.API.Controllers.V1
             return Ok(result);
         }
 
-        [HttpGet("{pageSize}/{page}/{nameProduct}")]
+        [HttpGet("{pageSize}/{pageIndex}/{nameProduct}")]
         public ActionResult<IEnumerable<ProductViewModel>> Get(int pageSize, 
-            int pageIndex, string nameProduct = null)
+            int pageIndex, string nameProduct)
         {
             Expression<Func<Product, bool>> filter = p => true;
 
@@ -40,6 +40,11 @@ namespace Senac.eShop.API.Controllers.V1
 
             return Ok(result);
         }
+
+        [HttpGet("{pageSize}/{pageIndex}")]
+        public ActionResult<IEnumerable<ProductViewModel>> Get(int pageSize,
+            int pageIndex)
+            => Get(pageSize, pageIndex, null);
 
         [HttpGet("{id}")]
         public ActionResult<ProductViewModel> Get(Guid id)

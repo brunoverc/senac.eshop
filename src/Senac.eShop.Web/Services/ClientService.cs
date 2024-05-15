@@ -24,7 +24,7 @@ namespace Senac.eShop.Web.Services
 
         public async Task<AddressViewModel> GetAddress(Guid clientId)
         {
-            var response = await _httpClient.GetAsync($"/client/address/{clientId}");
+            var response = await _httpClient.GetAsync($"/api/v1/client/address/{clientId}");
 
             if (response.StatusCode == HttpStatusCode.NotFound)
                 return null;
@@ -39,7 +39,7 @@ namespace Senac.eShop.Web.Services
         {
             var addressContent = GetContent(addressViewModel);
 
-            var response = await _httpClient.PostAsync($"/client/set-address-client/" +
+            var response = await _httpClient.PostAsync($"/api/v1/client/set-address-client/" +
                 $"{clientId}", addressContent);
 
             if (!HandleErrosResponse(response))

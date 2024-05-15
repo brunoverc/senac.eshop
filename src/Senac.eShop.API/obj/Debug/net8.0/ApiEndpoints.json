@@ -907,7 +907,7 @@
   {
     "ContainingType": "Senac.eShop.API.Controllers.V1.ProductController",
     "Method": "Get",
-    "RelativePath": "api/v1/product/{pageSize}/{page}/{nameProduct}",
+    "RelativePath": "api/v1/product/{pageSize}/{pageIndex}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -920,16 +920,42 @@
       {
         "Name": "pageIndex",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Senac.eShop.Application.ViewModel.ProductViewModel, Senac.eShop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Senac.eShop.API.Controllers.V1.ProductController",
+    "Method": "Get",
+    "RelativePath": "api/v1/product/{pageSize}/{pageIndex}/{nameProduct}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": true
       },
       {
         "Name": "nameProduct",
         "Type": "System.String",
-        "IsRequired": true
-      },
-      {
-        "Name": "page",
-        "Type": "",
         "IsRequired": true
       }
     ],

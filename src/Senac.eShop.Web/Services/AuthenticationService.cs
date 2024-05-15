@@ -41,7 +41,7 @@ namespace Senac.eShop.Web.Services
         {
             var loginContent = GetContent(userLogin);
 
-            var response = await _httpClient.PostAsync("/login", loginContent);
+            var response = await _httpClient.PostAsync("/api/v1/login", loginContent);
 
             if (!HandleErrosResponse(response))
             {
@@ -55,7 +55,7 @@ namespace Senac.eShop.Web.Services
         {
             var contentRegister = GetContent(userRegister);
 
-            var response = await _httpClient.PostAsync("/register", 
+            var response = await _httpClient.PostAsync("/api/v1/register", 
                 contentRegister);
 
             if (!HandleErrosResponse(response))
