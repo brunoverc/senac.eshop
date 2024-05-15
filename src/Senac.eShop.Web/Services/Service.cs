@@ -2,6 +2,7 @@
 using System.Text.Json;
 using System.Text;
 using Senac.eShop.Core.Communication;
+using Senac.eShop.Web.Models;
 
 namespace Senac.eShop.Web.Services
 {
@@ -21,6 +22,19 @@ namespace Senac.eShop.Web.Services
             {
                 PropertyNameCaseInsensitive = true
             };
+
+            try
+            {
+                var productTest = await responseMessage.Content.ReadAsStringAsync();
+                var jsonTest = JsonSerializer.Deserialize<List<ProductViewModel>>(productTest,
+                options);
+
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+                    
 
             return JsonSerializer.Deserialize<T>(await responseMessage.Content.ReadAsStringAsync(), 
                 options);
