@@ -233,6 +233,10 @@
       "PackagePath": "staticwebassets\\images\\banners\\1.jpg"
     },
     {
+      "Id": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\wwwroot\\images\\banners\\Senac_logo.png",
+      "PackagePath": "staticwebassets\\images\\banners\\Senac_logo.png"
+    },
+    {
       "Id": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\wwwroot\\images\\banners\\Template.jpg",
       "PackagePath": "staticwebassets\\images\\banners\\Template.jpg"
     },

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Senac.eShop.Infra.Identity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69af342fd7d2532901691719564ca22413c11cdf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+336374f4c9bf5c0297dcbb568d83cd41a359ac03")]
 [assembly: System.Reflection.AssemblyProductAttribute("Senac.eShop.Infra.Identity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Senac.eShop.Infra.Identity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

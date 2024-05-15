@@ -98,6 +98,7 @@ namespace Senac.eShop.Application.Services
             var product = _repository.GetById(productId);
             return product.StockQuantity;
         }
+
     }
 
 }

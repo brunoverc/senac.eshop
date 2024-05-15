@@ -22,20 +22,7 @@ namespace Senac.eShop.Web.Services
             {
                 PropertyNameCaseInsensitive = true
             };
-
-            try
-            {
-                var productTest = await responseMessage.Content.ReadAsStringAsync();
-                var jsonTest = JsonSerializer.Deserialize<List<ProductViewModel>>(productTest,
-                options);
-
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
-                    
-
+           
             return JsonSerializer.Deserialize<T>(await responseMessage.Content.ReadAsStringAsync(), 
                 options);
         }

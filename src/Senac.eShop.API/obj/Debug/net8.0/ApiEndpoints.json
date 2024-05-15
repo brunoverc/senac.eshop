@@ -925,7 +925,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Senac.eShop.Application.ViewModel.ProductViewModel, Senac.eShop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Senac.eShop.API.Models.PagedResult\u00601[[Senac.eShop.Application.ViewModel.ProductViewModel, Senac.eShop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -961,7 +961,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Senac.eShop.Application.ViewModel.ProductViewModel, Senac.eShop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Senac.eShop.API.Models.PagedResult\u00601[[Senac.eShop.Application.ViewModel.ProductViewModel, Senac.eShop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

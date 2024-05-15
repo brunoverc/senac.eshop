@@ -33,9 +33,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senac.eShop.Infra.Data", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senac.eShop.API", "src\Senac.eShop.API\Senac.eShop.API.csproj", "{873B258D-2BEE-4277-9385-37BF3497319B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senac.eShop.Infra.Identity", "src\Senac.eShop.Infra.Identity\Senac.eShop.Infra.Identity.csproj", "{FB5A543A-6CD6-4579-8A72-C72906FB8109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senac.eShop.Infra.Identity", "src\Senac.eShop.Infra.Identity\Senac.eShop.Infra.Identity.csproj", "{FB5A543A-6CD6-4579-8A72-C72906FB8109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senac.eShop.Web", "src\Senac.eShop.Web\Senac.eShop.Web.csproj", "{70B48CE3-785B-4CF5-BE79-774C67C211E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senac.eShop.Web", "src\Senac.eShop.Web\Senac.eShop.Web.csproj", "{70B48CE3-785B-4CF5-BE79-774C67C211E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{E5569971-27CB-4974-BDD9-3ACB012A0AAA}"
+	ProjectSection(SolutionItems) = preProject
+		src\scripts\InsertsProdutos.sql = src\scripts\InsertsProdutos.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -100,6 +105,7 @@ Global
 		{873B258D-2BEE-4277-9385-37BF3497319B} = {4E5D6871-EA50-44C8-B08E-4B8BA4599606}
 		{FB5A543A-6CD6-4579-8A72-C72906FB8109} = {EB1DD14D-18A3-4EF0-8B5E-28C8358605CA}
 		{70B48CE3-785B-4CF5-BE79-774C67C211E5} = {4046B4BF-FA65-49F6-942A-80484D53FBA1}
+		{E5569971-27CB-4974-BDD9-3ACB012A0AAA} = {3A765362-5432-4FD8-BB6C-3525FC99C3D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719F8FAD-9D07-4797-BCC7-E7525A7F6645}

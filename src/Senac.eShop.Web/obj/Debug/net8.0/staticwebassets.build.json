@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VltiTOrmb8W8hzsW6pQPaY9xhkaW+qroV61npe1/HqU=",
+  "Hash": "PZ2zKiy9+98KqYgCpQA3wVCgT1cOjViaG6Vws4N8r3E=",
   "Source": "Senac.eShop.Web",
   "BasePath": "_content/Senac.eShop.Web",
   "Mode": "Default",
@@ -1167,6 +1167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\banners\\nerdstore.png"
+    },
+    {
+      "Identity": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\wwwroot\\images\\banners\\Senac_logo.png",
+      "SourceId": "Senac.eShop.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\wwwroot\\",
+      "BasePath": "_content/Senac.eShop.Web",
+      "RelativePath": "images/banners/Senac_logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banners\\Senac_logo.png"
     },
     {
       "Identity": "C:\\Users\\Instrutor\\Documents\\GitHub\\senac.eshop\\src\\Senac.eShop.Web\\wwwroot\\images\\banners\\Template.jpg",

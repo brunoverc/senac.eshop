@@ -1,5 +1,6 @@
 ﻿using LinqKit;
 using Microsoft.AspNetCore.Mvc;
+using Senac.eShop.API.Models;
 using Senac.eShop.Application.Interfaces;
 using Senac.eShop.Application.ViewModel;
 using Senac.eShop.Domain.Entities;
@@ -27,7 +28,7 @@ namespace Senac.eShop.API.Controllers.V1
         }
 
         [HttpGet("{pageSize}/{pageIndex}/{nameProduct}")]
-        public ActionResult<IEnumerable<ProductViewModel>> Get(int pageSize, 
+        public ActionResult<PagedResult<ProductViewModel>> Get(int pageSize, 
             int pageIndex, string nameProduct)
         {
             Expression<Func<Product, bool>> filter = p => true;
@@ -36,13 +37,25 @@ namespace Senac.eShop.API.Controllers.V1
             {
                 filter = filter.And(p => p.Name.Contains(nameProduct));
             }
+
             var result = _productAppService.Search(filter, pageIndex, pageSize);
 
-            return Ok(result);
+            var total = _productAppService.Search(filter).Count();
+
+            var pagedReturn = new PagedResult<ProductViewModel>
+            {
+                List = result,
+                TotalResults = total,
+                PageIndex = pageIndex,
+                PageSize = pageSize,
+                Query = nameProduct
+            };
+
+            return pagedReturn;
         }
 
         [HttpGet("{pageSize}/{pageIndex}")]
-        public ActionResult<IEnumerable<ProductViewModel>> Get(int pageSize,
+        public ActionResult<PagedResult<ProductViewModel>> Get(int pageSize,
             int pageIndex)
             => Get(pageSize, pageIndex, null);
 
